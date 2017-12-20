@@ -82,11 +82,11 @@ body {
     background-size: cover;
 }
 #menu_img{
-    padding-top: 18px;
+    padding-left: 3px;
+    padding-top: 3px;
     float: left;
     display: inline-block;
-    width: 240px;
-    height: 41px;
+    width: 300px;
 }
 section{
     padding-top: 55px;
@@ -103,17 +103,18 @@ section{
     width: 40%;
 }
 #button_welcome{
+    text-align: center;
     border-radius: 5px;
     font-size: 15px;
     padding: 30px 50px;
     background-color: transparent;
-    border: 1px solid white;
+    border: 2px solid white;
     color: white;
 }
 #button_welcome:hover{
     transition: 1s;
     background-color: white;
-    color: green;
+    color: #004200;
 }
 #button1href{
     color: white;
