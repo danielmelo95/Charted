@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="utf-8">
+    <title>Charted | Overview</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/spotifycss.css">
+    <link rel="stylesheet" type="text/css" href="../css/overviewcss.css">
+    <!--<link rel="icon" type="image/png" href="/imgs/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/imgs/favicon-16x16.png" sizes="16x16" />-->
+    <!-- <link rel="icon" type="image/x-icon" href="imgs/favicon.ico"/>-->
+    <link rel="icon" type="image/png" href="../imgs/favic.png" />
+    <!--<script src="../js/myscrpt.js"></script>-->
+</head>
+<body >
+<nav>
+    <ul id="menu" role="main">
+        <li id="menu_img_li"><img id="menu_img" src="../imgs/logo_and_text2.png"></li>
+        <li><a href="html/">SOMETHING</a></li>
+        <li><a href="html/">SOMETHING</a></li>
+        <li><a href="html/">SOMETHING</a></li>
+        <li><a class="active" href="../html/overview-billboard.html">OVERVIEW</a></li>
+        <li><a  href="../index.html">HOME</a></li>
+    </ul>
+</nav>
+<nav role="sub">
+    <div id="menuToggle">
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+        <input type="checkbox" />
+
+        <!--
+        Some spans to act as a hamburger.
+
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+        <ul id="menu2">
+            <a class="active" href="../html/overview-billboard.html"><li>BILLBOARD TOP 100</li></a>
+            <a href="../html/overview-spotify.html"><li>SPOTIFY</li></a>
+            <a href="#"><li>TIDAL</li></a>
+            <a href="#"><li>OTHER</li></a>
+        </ul>
+    </div>
+</nav>
+<article id="chart_place">
+    <span id="billbspan"> Top played songs according to</span> <img id="spotify_img" src="../imgs/spotify_logo.png">
+</article>
+<footer>
+</footer>
+</body>
+</html>

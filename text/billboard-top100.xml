@@ -1,0 +1,1903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<article lang="">
+  <para>        _udn = "billboard.com";
+    function utmx_section(){}function utmx(){}(function(){var
+                k='67942495-39',d=document,l=d.location,c=d.cookie;
+            if(l.search.indexOf('utm_expid='+k)&gt;0)return;
+            function f(n){if(c){var i=c.indexOf(n+'=');if(i&gt;-1){var j=c.
+                    indexOf(';',i);return escape(c.substring(i+n.length+1,j&lt;0?c.
+                    length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+                    '&lt;sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+                            '://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+                            '&amp;utmx='+(x?x:'')+'&amp;utmxx='+(xx?xx:'')+'&amp;utmxtime='+new Date().
+                            valueOf()+(h?'&amp;utmxhash='+escape(h.substr(1)):'')+
+                            '" type="text/javascript" charset="utf-8"&gt;&lt;\/sc'+'ript&gt;')})();
+    utmx('url','A/B');<note><remark>HTML: &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;</remark></note><note><remark>HTML: &lt;meta name="" content="Billboard"&gt;</remark></note><note><remark>HTML: &lt;meta name="" content="article"&gt;</remark></note>    var PGM = window.PGM || {};
+    PGM.config = PGM.config || {
+        contentHost: "http://www.billboard.com",
+    };
+    (function(PGM) {
+        var debug_queue = [];
+        PGM.debug = function() {debug_queue.push(arguments);};
+        PGM.debug.dump = function() {return debug_queue;}
+        PGM.debug.initialCategories = {
+                    };
+    })(PGM);
+
+    PGM.events = (function() {
+        var events_queue = [];
+        return {
+            trigger: function() {events_queue.push(arguments); },
+            get: function() { return events_queue; }
+        };
+    })();
+
+    PGM.createScript = (function() {
+        var q = [], cs = function createScript() { q.push(arguments) };
+        cs.dump = function() {return q;};
+        return cs;
+    })();
+
+    PGM.createScriptTag = (function() {
+        var q = [], cs = function createScriptTag() { q.push(arguments) };
+        cs.dump = function() {return q;};
+        return cs;
+    })();
+
+        PGM.tests = [];
+    PGM.ads = PGM.ads || {};
+    PGM.ads.adUnit = '/';
+    PGM.ads.slots = PGM.ads.slots || {};		    window.CLARITY_GPT_DELAY = 0.01 * 1000;
+
+			clarityPageData = {"site_code":"billboard","zone":"","disable_initial_load":true,"single_request_mode":true};
+    (function(){
+        window.CLARITY = window.CLARITY || [];
+        var ns = document.createElement('script'), s = document.getElementsByTagName('script')[0];
+        ns.async = true; ns.type = 'text/javascript'; ns.src = '//lib.pgmcdn.com/clarity-1512163198831.min.js'; s.parentNode.insertBefore(ns, s);
+    })();    var PGM = window.PGM || {};
+    PGM.mediaQueries = {
+        medium: "only screen and (min-width: 768px)",
+        large: "only screen and (min-width: 1024px)"
+    };
+    PGM.ads = PGM.ads || {};
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+
+var PGM = PGM || {};
+PGM.ads = PGM.ads || {};
+PGM.ads.slots = PGM.ads.slots || {};
+PGM.ads.adUnit = '/6419/billboard/charts/hot-100';
+PGM.ads.data = {"ad_zone":"","targeting":{"tags_global":["fe-api","charts","hot-100","[node:chart_primary_category]"],"page":"1479786","tags":[],"env":"prod"},"slots":{"b4":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"b4","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[88,31],[120,60]],"768":[[88,31],[120,60]],"0":[[88,31],[120,60]]},"defaultSizes":[[88,31],[120,60]],"targetingParameters":[],"chartLine":null,"lazyLoad":false},"bbwatch1":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"bbwatch1","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[88,31],[120,60]],"768":[[88,31],[120,60]],"0":[[88,31],[120,60]]},"defaultSizes":[[88,31],[120,60]],"targetingParameters":{"pos":"bbwatch1"},"chartLine":null,"lazyLoad":false},"bbwatch2":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"bbwatch2","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,50]],"768":[[300,50]],"0":[[300,50]]},"defaultSizes":[[300,50]],"targetingParameters":{"pos":"bbwatch2"},"chartLine":null,"lazyLoad":false},"g1":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"g1","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250]],"768":[[300,250]],"0":[[300,250]]},"defaultSizes":[[300,250]],"targetingParameters":{"pos":"g1"},"chartLine":null,"lazyLoad":false},"t2":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"t2","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[644,380],[620,380]],"768":[[728,90],[644,380],[620,380]],"0":[[300,50],[320,50],[300,300]]},"defaultSizes":[[644,380],[620,380]],"targetingParameters":{"pos":"t2"},"chartLine":null,"lazyLoad":false},"lis":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"lis","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[92,28]],"768":[[92,28]],"0":[[92,28]]},"defaultSizes":[[92,28]],"targetingParameters":{"pos":"lis"},"chartLine":"0","lazyLoad":false},"longform_t2":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"longform_t2","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[728,90]],"768":[[728,90]],"0":[[300,300]]},"defaultSizes":[[728,90]],"targetingParameters":{"pos":"t2"},"chartLine":null,"lazyLoad":false},"m":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"m","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250]],"768":[[300,250]],"0":[[300,50],[320,50]]},"defaultSizes":[[300,250]],"targetingParameters":{"pos":"m"},"chartLine":null,"lazyLoad":false},"lightbox":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"lightbox","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250],[300,600]],"768":[[728,90]],"0":[[320,50],[300,50]]},"defaultSizes":[[300,250],[300,600]],"targetingParameters":{"pos":"lightbox"},"chartLine":null,"lazyLoad":false},"m_artists":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"m_artists","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250]],"768":[[300,250]],"0":[[300,250],[300,50],[320,50]]},"defaultSizes":[[300,250]],"targetingParameters":{"pos":"m"},"chartLine":null,"lazyLoad":false},"t":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"t","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[990,350],[970,250],[728,90],[970,90],[970,66],[728,91],[980,50],[980,250]],"768":[[728,91],[728,90]],"0":[[300,50],[320,50],[320,170],[320,51]]},"defaultSizes":[[990,350],[970,250],[728,90],[970,90],[970,66],[728,91],[980,50],[980,250]],"targetingParameters":{"pos":"t"},"chartLine":null,"lazyLoad":false},"m2":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"m2","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250],[300,252]],"768":[[300,250],[300,252]],"0":[[300,50],[320,50],[300,250]]},"defaultSizes":[[300,250],[300,252]],"targetingParameters":{"pos":"m2","dartlegolas":"segments","amazon":"1"},"chartLine":"7","lazyLoad":false},"a":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"a","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[728,90],[728,92],[728,66]],"768":[[728,90],[728,92],[728,66]],"0":[[300,50],[320,50]]},"defaultSizes":[[728,90],[728,92],[728,66]],"targetingParameters":{"pos":"a","dartlegolas":"segments","amazon":"1"},"chartLine":null,"lazyLoad":false},"b1":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"b1","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[88,31],[120,60]],"768":[[88,31],[120,60]],"0":[[88,31],[120,60]]},"defaultSizes":[[88,31],[120,60]],"targetingParameters":{"pos":"b1"},"chartLine":null,"lazyLoad":false},"b3":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"b3","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[88,31],[120,60]],"768":[[88,31],[120,60]],"0":[[88,31],[120,60]]},"defaultSizes":[[88,31],[120,60]],"targetingParameters":[],"chartLine":null,"lazyLoad":false},"bb":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"bb","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[970,90],[970,250],[980,250],[728,90]],"768":[[728,90]],"0":[[320,50],[300,50]]},"defaultSizes":[[970,90],[970,250],[980,250],[728,90]],"targetingParameters":{"pos":"bb"},"chartLine":null,"lazyLoad":false},"m1":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"m1","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250],[300,600],[300,251]],"768":[[300,250],[300,600],[300,251]],"0":[[300,50],[320,50],[300,250]]},"defaultSizes":[[300,250],[300,600],[300,251]],"targetingParameters":{"pos":"m1","amazon":"1"},"chartLine":"0","lazyLoad":false},"m10":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"m10","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250],[300,600]],"768":[[300,250],[300,600]],"0":[[300,250],[320,50],[300,50]]},"defaultSizes":[[300,250],[300,600]],"targetingParameters":{"pos":"m10"},"chartLine":"77","lazyLoad":false},"m11":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"m11","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250],[300,600]],"768":[[300,250],[300,600]],"0":[[300,250],[320,50],[300,50]]},"defaultSizes":[[300,250],[300,600]],"targetingParameters":{"pos":"m11"},"chartLine":"89","lazyLoad":false},"m12":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"m12","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250],[300,600]],"768":[[300,250],[300,600]],"0":[[300,250],[320,50],[300,50]]},"defaultSizes":[[300,250],[300,600]],"targetingParameters":{"pos":"m12"},"chartLine":"94","lazyLoad":false},"m13":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"m13","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250],[300,600]],"768":[[300,250],[300,600]],"0":[[300,250],[320,50],[300,50]]},"defaultSizes":[[300,250],[300,600]],"targetingParameters":{"pos":"m13"},"chartLine":"109","lazyLoad":false},"m14":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"m14","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250],[300,600],[300,1050]],"768":[[300,250],[300,600],[300,1050]],"0":[[300,250],[320,50],[300,50]]},"defaultSizes":[[300,250],[300,600],[300,1050]],"targetingParameters":{"pos":"m14"},"chartLine":"119","lazyLoad":false},"m15":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"m15","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250],[300,600]],"768":[[300,250],[300,600]],"0":[[300,250],[320,50],[300,50]]},"defaultSizes":[[300,250],[300,600]],"targetingParameters":{"pos":"m15","dartlegolas":"segments"},"chartLine":"129","lazyLoad":false},"m16":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"m16","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250],[300,600]],"768":[[300,250],[300,600]],"0":[[300,250],[320,50],[300,50]]},"defaultSizes":[[300,250],[300,600]],"targetingParameters":{"pos":"m16"},"chartLine":"139","lazyLoad":false},"m17":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"m17","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250],[300,600]],"768":[[300,250],[300,600]],"0":[[300,250],[320,50],[300,50]]},"defaultSizes":[[300,250],[300,600]],"targetingParameters":{"pos":"m17"},"chartLine":"159","lazyLoad":false},"m18":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"m18","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250],[300,600]],"768":[[300,250],[300,600]],"0":[[300,250],[320,50],[300,50]]},"defaultSizes":[[300,250],[300,600]],"targetingParameters":{"pos":"m18"},"chartLine":"159","lazyLoad":false},"m1_iframe":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"m1_iframe","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250],[300,251]],"768":[[300,250],[300,251]],"0":[[300,50],[320,50]]},"defaultSizes":[[300,250],[300,251]],"targetingParameters":{"pos":"m1","amazon":"1"},"chartLine":null,"lazyLoad":false},"m2_iframe":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"m2_iframe","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250],[300,252]],"768":[[300,250],[300,252]],"0":null},"defaultSizes":[[300,250],[300,252]],"targetingParameters":{"pos":"m2"},"chartLine":null,"lazyLoad":false},"m3":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"m3","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250],[300,600]],"768":[[300,250],[300,600]],"0":[[300,50],[320,50],[300,250]]},"defaultSizes":[[300,250],[300,600]],"targetingParameters":{"pos":"m3"},"chartLine":"19","lazyLoad":false},"m4":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"m4","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250],[300,600]],"768":[[300,250],[300,600]],"0":[[320,50],[300,50],[200,250]]},"defaultSizes":[[300,250],[300,600]],"targetingParameters":{"pos":"m4"},"chartLine":"27","lazyLoad":false},"m5":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"m5","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250],[300,600]],"768":[[300,250],[300,600]],"0":[[320,50],[300,50]]},"defaultSizes":[[300,250],[300,600]],"targetingParameters":{"pos":"m5"},"chartLine":"33","lazyLoad":false},"m6":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"m6","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250],[300,600]],"768":[[300,250],[300,600]],"0":[[320,50],[300,50]]},"defaultSizes":[[300,250],[300,600]],"targetingParameters":{"pos":"m6"},"chartLine":"39","lazyLoad":false},"m7":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"m7","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250],[300,600]],"768":[[300,250],[300,600]],"0":[[300,250],[320,50],[300,50]]},"defaultSizes":[[300,250],[300,600]],"targetingParameters":{"pos":"m7"},"chartLine":"47","lazyLoad":false},"m8":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"m8","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250],[300,600],[300,1050]],"768":[[300,250],[300,600]],"0":[[300,250],[320,50],[300,50]]},"defaultSizes":[[300,250],[300,600],[300,1050]],"targetingParameters":{"pos":"m8"},"chartLine":"60","lazyLoad":false},"m9":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"m9","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[300,250],[300,600]],"768":[[300,250],[300,600]],"0":[[300,250],[320,50],[300,50]]},"defaultSizes":[[300,250],[300,600]],"targetingParameters":{"pos":"m9"},"chartLine":"66","lazyLoad":false},"o1":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"o1","outOfBody":true,"responsive":true,"sizeMapping":{"1024":null,"768":null,"0":null},"defaultSizes":null,"targetingParameters":{"pos":"o1"},"chartLine":null,"lazyLoad":false},"top":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"top","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[990,350],[970,250],[970,90],[970,66],[728,91],[980,50],[980,250]],"768":[[728,91]],"0":null},"defaultSizes":[[990,350],[970,250],[970,90],[970,66],[728,91],[980,50],[980,250]],"targetingParameters":{"pos":"t"},"chartLine":null,"lazyLoad":false},"tout":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"tout","outOfBody":false,"responsive":true,"sizeMapping":{"1024":null,"768":null,"0":null},"defaultSizes":null,"targetingParameters":{"pos":"tout"},"chartLine":null,"lazyLoad":false},"ic25":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"ic25","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155],[669,303],[650,303]],"768":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155],[669,303],[650,303]],"0":[[300,50],[320,50],[300,250]]},"defaultSizes":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155],[669,303],[650,303]],"targetingParameters":{"pos":"ic25"},"chartLine":"25","lazyLoad":false},"ic85":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"ic85","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155],[669,306],[650,306]],"768":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155],[669,306],[650,306]],"0":[[300,50],[320,50],[300,250]]},"defaultSizes":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155],[669,306],[650,306]],"targetingParameters":{"pos":"ic85"},"chartLine":"85","lazyLoad":false},"ic1":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"ic1","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155],[669,301],[650,301],[3,3]],"768":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155],[669,301],[650,301],[3,3]],"0":[[300,50],[320,50],[300,250],[3,3]]},"defaultSizes":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155],[669,301],[650,301],[3,3]],"targetingParameters":{"pos":"ic1"},"chartLine":"1","lazyLoad":false},"ic15":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"ic15","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155],[669,302],[650,302]],"768":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155],[669,302],[650,302]],"0":[[300,50],[320,50],[300,250]]},"defaultSizes":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155],[669,302],[650,302]],"targetingParameters":{"pos":"ic15"},"chartLine":"15","lazyLoad":false},"ic45":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"ic45","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155],[669,304],[650,304]],"768":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155],[669,304],[650,304]],"0":[[300,50],[320,50],[300,250]]},"defaultSizes":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155],[669,304],[650,304]],"targetingParameters":{"pos":"ic45"},"chartLine":"45","lazyLoad":false},"ic65":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"ic65","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155],[669,305],[650,305]],"768":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155],[669,305],[650,305]],"0":[[300,50],[320,50],[300,250]]},"defaultSizes":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155],[669,305],[650,305]],"targetingParameters":{"pos":"ic65"},"chartLine":"65","lazyLoad":false},"ic5":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"ic5","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"768":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"0":[[300,50],[320,50],[300,250]]},"defaultSizes":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"targetingParameters":{"pos":"ic5"},"chartLine":"5","lazyLoad":false},"ic10":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"ic10","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"768":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"0":[[300,50],[320,50],[300,250]]},"defaultSizes":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"targetingParameters":{"pos":"ic10"},"chartLine":"10","lazyLoad":false},"ic20":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"ic20","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"768":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"0":[[300,50],[320,50],[300,250]]},"defaultSizes":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"targetingParameters":{"pos":"ic20"},"chartLine":"20","lazyLoad":false},"ic30":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"ic30","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"768":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"0":[[300,50],[320,50],[300,250]]},"defaultSizes":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"targetingParameters":{"pos":"ic30"},"chartLine":"30","lazyLoad":false},"ic35":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"ic35","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"768":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"0":[[300,50],[320,50],[300,250]]},"defaultSizes":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"targetingParameters":{"pos":"ic35"},"chartLine":"35","lazyLoad":false},"ic55":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"ic55","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"768":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"0":[[300,50],[320,50],[300,250]]},"defaultSizes":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"targetingParameters":{"pos":"ic55"},"chartLine":"55","lazyLoad":false},"ic70":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"ic70","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"768":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"0":[[300,50],[320,50],[300,250]]},"defaultSizes":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"targetingParameters":{"pos":"ic70"},"chartLine":"70","lazyLoad":false},"ic80":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"ic80","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"768":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"0":[[300,50],[320,50],[300,250]]},"defaultSizes":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"targetingParameters":{"pos":"ic80"},"chartLine":"80","lazyLoad":false},"ic90":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"ic90","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"768":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"0":[[300,50],[320,50],[300,250]]},"defaultSizes":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"targetingParameters":{"pos":"ic90"},"chartLine":"90","lazyLoad":false},"ic95":{"adUnit":"\/6419\/billboard\/charts\/hot-100","slotName":"ic95","outOfBody":false,"responsive":true,"sizeMapping":{"1024":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"768":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"0":[[300,50],[320,50],[300,250]]},"defaultSizes":[[669,50],[669,100],[669,200],[669,300],[650,300],[650,155]],"targetingParameters":{"pos":"ic95"},"chartLine":"95","lazyLoad":false}}};
+PGM.autoplayers = ["HynaCuMbg","S1endnWG9x","HyHqRqMw"];
+
+googletag.cmd.push(function() {
+	googletag.pubads().setTargeting('template', 'n');
+    PGM.debug('dfpauto', 'PAGE', 'template', 'n');
+
+        	googletag.pubads().setTargeting('tags_global', ["fe-api","charts","hot-100","[node:chart_primary_category]"]);
+        PGM.debug('dfpauto', 'PAGE', 'tags_global', ["fe-api","charts","hot-100","[node:chart_primary_category]"]);
+        	googletag.pubads().setTargeting('page', "1479786");
+        PGM.debug('dfpauto', 'PAGE', 'page', "1479786");
+        	googletag.pubads().setTargeting('tags', []);
+        PGM.debug('dfpauto', 'PAGE', 'tags', []);
+        	googletag.pubads().setTargeting('env', "prod");
+        PGM.debug('dfpauto', 'PAGE', 'env', "prod");
+
+    if( typeof Krux !== 'undefined' ) {
+        googletag.pubads().setTargeting('ksg', Krux.segments);
+        PGM.debug('dfpauto', 'PAGE', 'ksg', Krux.segments);
+        googletag.pubads().setTargeting('kuid', Krux.user);
+        PGM.debug('dfpauto', 'PAGE', 'kuid', Krux.user);
+    }
+
+    $('video').each(function () {
+        let $vid = $(this),
+            player = $vid.data('player'),
+            account = $vid.data('account');
+
+        if (PGM.autoplayers.indexOf(player) &gt;= 0) {
+            // If there are any auto-play vids stop
+            googletag.pubads().setTargeting('video', 'autoplay');
+            PGM.debug('dfpauto', 'PAGE', 'video', 'autoplay');
+            return false;
+        } else if (account) {
+            googletag.pubads().setTargeting('video', 'click-to-play');
+            PGM.debug('dfpauto', 'PAGE', 'video', 'click-to-play');
+            // if there are click-to-plays there could still be an auto-play somewhere, continue
+        }
+    });
+
+    });    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1266747-9']);
+    _gaq.push(['_setDomainName', 'billboard.com']);
+    _gaq.push(['_setAllowLinker', true]);
+    _gaq.push(['_trackPageview']);
+        var dataLayer = dataLayer || [];
+        dataLayer.push({
+            'fireGTM': 'on'
+                        , 'contentId': '1479786'
+
+                    , 'contentType': 'chart page'
+
+                    , 'category': 'chart'
+
+
+        });
+        dataLayer.push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+        PGM.createScript('//www.googletagmanager.com/gtm.js?id=GTM-MD3ZLS');
+        var _comscore = _comscore || [];
+    var comscoreVars = {
+        c1: "2"
+        ,c2: "7395269"
+        ,c3: ""
+        };
+    _comscore.push(comscoreVars);
+    <note><remark>HTML: &lt;noscript&gt;</remark></note><inlinegraphic fileref="http://b.scorecardresearch.com/p?c1=2&amp;c2=7395269&amp;cv=2.0&amp;cj=1" width="0.0102inch" depth="0.0161inch"/><note><remark>HTML: &lt;/noscript&gt;</remark></note> var _sf_startpt=(new Date()).getTime()        var BB = BB || {};
+        BB.config = BB.config || {
+            contentHost: "http://www.billboard.com",
+            mediaHost: "http://www.billboard.com"
+        };
+            window._taboola = window._taboola || [];
+        dataLayer.push({'taboolaType': 'article' });
+    </para>
+  <para>
+    <inlinegraphic fileref="../../assets/1513814938/images/Billboard-white.svg%3Fb6cf9ba72ee261c492aa" width="0.8071inch" depth="0.4138inch"/>
+    <olink targetdocent="../../"> Billboard </olink>
+  </para>
+  <para>Subscribe </para>
+  <para><inlinegraphic fileref="https://www.billboard.com/files/styles/nav-cover-topcrop/public/media/bb29-u2-jkls-billboard-400.jpg" width="0.7862inch" depth="0.3929inch"/> <ulink url="https://subscribe.billboard.com/sub/?p=BBL&amp;f=sale&amp;s=IB1404NS04">Subscribe now </ulink></para>
+  <para>
+    <olink targetdocent="../../newsletters">Newsletter Sign Up </olink>
+  </para>
+  <orderedlist>
+    <listitem>
+      <para>
+        <ulink url="https://www.billboard.com/charts">Charts </ulink>
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        <ulink url="https://www.billboard.com/news">News </ulink>
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        <ulink url="https://www.billboard.com/videos">Video </ulink>
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        <ulink url="https://www.billboard.com/photos">Photos </ulink>
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        <ulink url="https://www.billboard.com/biz">Business </ulink>
+      </para>
+    </listitem>
+  </orderedlist>
+  <orderedlist>
+    <listitem>
+      <para>More </para>
+    </listitem>
+  </orderedlist>
+  <para>
+    <ulink url="https://subscribe.billboard.com/sub/?p=BBL&amp;f=sale&amp;s=IB1404NS04">Subscribe </ulink>
+  </para>
+  <para> </para>
+  <para>
+    <ulink url="https://www.billboard.com/grammys">Grammys 2018 </ulink>
+    <ulink url="https://www.billboard.com/hub/year-in-music-2017">Year in Music 2017 </ulink>
+    <ulink url="https://www.billboard.com/charts/hot-100">Hot 100 </ulink>
+    <ulink url="https://www.billboard.com/charts/billboard-200">Billboard 200 </ulink>
+    <ulink url="https://www.billboard.com/podcasts">Podcasts </ulink>
+    <ulink url="https://www.billboard.com/pop">Pop </ulink>
+    <ulink url="https://www.billboard.com/hip-hop-rap-r-and-b">R&amp;B/Hip-Hop </ulink>
+    <ulink url="https://www.billboard.com/chart-beat">Chart Beat </ulink>
+    <ulink url="https://www.billboard.com/artists/top-100">Artists </ulink>
+  </para>
+  <para><inlinegraphic fileref="https://www.billboard.com/files/media/hot100-stack.svg" width="0.7862inch" depth="0.3929inch"/> <inlinegraphic fileref="https://www.billboard.com/files/media/hot100.svg" width="0.7862inch" depth="0.3929inch"/> </para>
+  <sect1 id="how-it-works">
+    <title>The Hot 100 </title>
+    <para><inlinegraphic fileref="../../assets/1513814938/images/how-it-works-airplay.svg%3Fb6cf9ba72ee261c492aa" width="0.7862inch" depth="0.3929inch"/> Radio Airplay 1 <inlinegraphic fileref="../../assets/1513814938/images/how-it-works-sales.svg%3Fb6cf9ba72ee261c492aa" width="0.7862inch" depth="0.3929inch"/> Sales Data 2 <inlinegraphic fileref="../../assets/1513814938/images/how-it-works-streaming.svg%3Fb6cf9ba72ee261c492aa" width="0.7862inch" depth="0.3929inch"/> Streaming Data 3 </para>
+    <para>View Details </para>
+    <para>This week's most popular songs across all genres, ranked by radio airplay audience impressions as measured by Nielsen Music, sales data as compiled by Nielsen Music and streaming activity data provided by online music sources.</para>
+  </sect1>
+  <sect1>
+    <title>The Hot 100 </title>
+    <para><inlinegraphic fileref="../../assets/1513814938/images/how-it-works-airplay.svg%3Fb6cf9ba72ee261c492aa" width="0.7862inch" depth="0.3929inch"/> Radio Airplay 1 <inlinegraphic fileref="../../assets/1513814938/images/how-it-works-sales.svg%3Fb6cf9ba72ee261c492aa" width="0.7862inch" depth="0.3929inch"/> Sales Data 2 <inlinegraphic fileref="../../assets/1513814938/images/how-it-works-streaming.svg%3Fb6cf9ba72ee261c492aa" width="0.7862inch" depth="0.3929inch"/> Streaming Data 3 </para>
+    <para>View Details </para>
+    <para>This week's most popular songs across all genres, ranked by radio airplay audience impressions as measured by Nielsen Music, sales data as compiled by Nielsen Music and streaming activity data provided by online music sources.</para>
+    <para>How it works </para>
+    <para>December 30, 2017 </para>
+    <para>Search the Chart Archives. Try entering a birthday or anniversary.</para>
+    <para>ArchiveSearch </para>
+    <para> GO </para>
+    <para>  </para>
+    <para>1 Last Week: 1 </para>
+  </sect1>
+  <sect1>
+    <title>Perfect</title>
+    <para>Ed Sheeran Duet With Beyonce </para>
+    <sect1 id="chart-row-1-secondary">
+      <para>Last Week 1 </para>
+      <para>Peak Position 1 </para>
+      <para>Wks on Chart 16 </para>
+      <orderedlist>
+        <listitem>
+          <para>Biggest gain in airplay </para>
+        </listitem>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para><inlinegraphic fileref="../../assets/1513814938/images/chart_news_video_logo.png%3Fb6cf9ba72ee261c492aa" width="0.7862inch" depth="0.3929inch"/> </para>
+  </sect1>
+  <sect1>
+    <title>Chart Highlights </title>
+    <sect2>
+      <title>Airplay Gainer </title>
+      <para>1</para>
+    </sect2>
+  </sect1>
+  <sect1>
+    <title>Perfect</title>
+    <sect2>
+      <title>Ed Sheeran Duet With Beyonce </title>
+    </sect2>
+    <sect2>
+      <title>Hot Shot Debut </title>
+      <para>61</para>
+    </sect2>
+  </sect1>
+  <sect1>
+    <title>Never Be The Same</title>
+    <sect2>
+      <title>
+        <olink targetdocent="../../music/camila-cabello">Camila Cabello </olink>
+      </title>
+      <olink targetdocent="../../music/camila-cabello">Camila Cabello </olink>
+      <para>Share the Chart</para>
+      <para>2 Last Week: 2 </para>
+    </sect2>
+  </sect1>
+  <sect1>
+    <title>Rockstar</title>
+    <para>Post Malone Featuring 21 Savage </para>
+    <sect1 id="chart-row-2-secondary">
+      <para>Last Week 2 </para>
+      <para>Peak Position 1 </para>
+      <para>Wks on Chart 13 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>3 Last Week: 3 </para>
+  </sect1>
+  <sect1>
+    <title>Havana</title>
+    <para>Camila Cabello Featuring Young Thug </para>
+    <sect1 id="chart-row-3-secondary">
+      <para>Last Week 3 </para>
+      <para>Peak Position 2 </para>
+      <para>Wks on Chart 18 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>4 Last Week: 4 </para>
+  </sect1>
+  <sect1>
+    <title>Gucci Gang</title>
+    <para>
+      <olink targetdocent="../../music/lil-pump">Lil Pump </olink>
+    </para>
+    <sect1 id="chart-row-4-secondary">
+      <para>Last Week 4 </para>
+      <para>Peak Position 3 </para>
+      <para>Wks on Chart 14 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>5 Last Week: 5 </para>
+  </sect1>
+  <sect1>
+    <title>Thunder</title>
+    <para>
+      <olink targetdocent="../../music/imagine-dragons">Imagine Dragons </olink>
+    </para>
+    <sect1 id="chart-row-5-secondary">
+      <para>Last Week 5 </para>
+      <para>Peak Position 4 </para>
+      <para>Wks on Chart 33 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>6 Last Week: 15 </para>
+  </sect1>
+  <sect1>
+    <title>MotorSport</title>
+    <para>Migos, Nicki Minaj &amp; Cardi B </para>
+    <sect1 id="chart-row-6-secondary">
+      <para>Last Week 15 </para>
+      <para>Peak Position 6 </para>
+      <para>Wks on Chart 7 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>7 Last Week: 6 </para>
+  </sect1>
+  <sect1>
+    <title>Too Good At Goodbyes</title>
+    <para>
+      <olink targetdocent="../../music/sam-smith">Sam Smith </olink>
+    </para>
+    <sect1 id="chart-row-7-secondary">
+      <para>Last Week 6 </para>
+      <para>Peak Position 4 </para>
+      <para>Wks on Chart 14 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>8 Last Week: 8 </para>
+  </sect1>
+  <sect1>
+    <title>Bad At Love</title>
+    <para>
+      <olink targetdocent="../../music/halsey">Halsey </olink>
+    </para>
+    <sect1 id="chart-row-8-secondary">
+      <para>Last Week 8 </para>
+      <para>Peak Position 8 </para>
+      <para>Wks on Chart 15 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>9 Last Week: 11 </para>
+  </sect1>
+  <sect1>
+    <title>All I Want For Christmas Is You</title>
+    <para>
+      <olink targetdocent="../../music/mariah-carey">Mariah Carey </olink>
+    </para>
+    <sect1 id="chart-row-9-secondary">
+      <para>Last Week 11 </para>
+      <para>Peak Position 9 </para>
+      <para>Wks on Chart 22 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>10 Last Week: 7 </para>
+  </sect1>
+  <sect1>
+    <title>No Limit</title>
+    <para>G-Eazy Featuring A$AP Rocky &amp; Cardi B </para>
+    <sect1 id="chart-row-10-secondary">
+      <para>Last Week 7 </para>
+      <para>Peak Position 7 </para>
+      <para>Wks on Chart 14 </para>
+      <para>Share the Song</para>
+    </sect1>
+  </sect1>
+  <sect1>
+    <title>This Week In </title>
+  </sect1>
+  <sect1>
+    <title><anchor id="twi-year"/> </title>
+    <sect2>
+      <title>On This Day in History</title>
+      <para>Discover which song was #1 the day you were born!</para>
+      <para><anchor id="twi-birthday-date"/>  </para>
+      <para>11 Last Week: 9 </para>
+    </sect2>
+  </sect1>
+  <sect1>
+    <title>Bodak Yellow (Money Moves)</title>
+    <para>
+      <olink targetdocent="../../music/cardi-b">Cardi B </olink>
+    </para>
+    <sect1 id="chart-row-11-secondary">
+      <para>Last Week 9 </para>
+      <para>Peak Position 1 </para>
+      <para>Wks on Chart 24 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>12 Last Week: 13 </para>
+  </sect1>
+  <sect1>
+    <title>Gummo</title>
+    <para>6ix9ine </para>
+    <sect1 id="chart-row-12-secondary">
+      <para>Last Week 13 </para>
+      <para>Peak Position 12 </para>
+      <para>Wks on Chart 5 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>13 Last Week: 10 </para>
+  </sect1>
+  <sect1>
+    <title>What Lovers Do</title>
+    <para>Maroon 5 Featuring SZA </para>
+    <sect1 id="chart-row-13-secondary">
+      <para>Last Week 10 </para>
+      <para>Peak Position 9 </para>
+      <para>Wks on Chart 16 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>14 Last Week: 17 </para>
+  </sect1>
+  <sect1>
+    <title>New Rules</title>
+    <para>
+      <olink targetdocent="../../music/dua-lipa">Dua Lipa </olink>
+    </para>
+    <sect1 id="chart-row-14-secondary">
+      <para>Last Week 17 </para>
+      <para>Peak Position 14 </para>
+      <para>Wks on Chart 20 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>15 Last Week: 14 </para>
+  </sect1>
+  <sect1>
+    <title>I Get The Bag</title>
+    <para>Gucci Mane Featuring Migos </para>
+    <sect1 id="chart-row-15-secondary">
+      <para>Last Week 14 </para>
+      <para>Peak Position 11 </para>
+      <para>Wks on Chart 17 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>16 Last Week: 22 </para>
+  </sect1>
+  <sect1>
+    <title>Let You Down</title>
+    <para>
+      <olink targetdocent="../../music/nf">NF </olink>
+    </para>
+    <sect1 id="chart-row-16-secondary">
+      <para>Last Week 22 </para>
+      <para>Peak Position 16 </para>
+      <para>Wks on Chart 9 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>17 Last Week: 12 </para>
+  </sect1>
+  <sect1>
+    <title>Feel It Still</title>
+    <para>
+      <olink targetdocent="../../music/portugal-the-man">Portugal. The Man </olink>
+    </para>
+    <sect1 id="chart-row-17-secondary">
+      <para>Last Week 12 </para>
+      <para>Peak Position 4 </para>
+      <para>Wks on Chart 26 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>18 Last Week: 16 </para>
+  </sect1>
+  <sect1>
+    <title>Sorry Not Sorry</title>
+    <para>
+      <olink targetdocent="../../music/demi-lovato">Demi Lovato </olink>
+    </para>
+    <sect1 id="chart-row-18-secondary">
+      <para>Last Week 16 </para>
+      <para>Peak Position 6 </para>
+      <para>Wks on Chart 23 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>19 Last Week: 23 </para>
+  </sect1>
+  <sect1>
+    <title>I Fall Apart</title>
+    <para>
+      <olink targetdocent="../../music/post-malone">Post Malone </olink>
+    </para>
+    <sect1 id="chart-row-19-secondary">
+      <para>Last Week 23 </para>
+      <para>Peak Position 19 </para>
+      <para>Wks on Chart 12 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>20 Last Week: 18 </para>
+  </sect1>
+  <sect1>
+    <title>Mi Gente</title>
+    <para>J Balvin &amp; Willy William Featuring Beyonce </para>
+    <sect1 id="chart-row-20-secondary">
+      <para>Last Week 18 </para>
+      <para>Peak Position 3 </para>
+      <para>Wks on Chart 24 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>21 Last Week: 20 </para>
+  </sect1>
+  <sect1>
+    <title>Wolves</title>
+    <para>Selena Gomez X Marshmello </para>
+    <sect1 id="chart-row-21-secondary">
+      <para>Last Week 20 </para>
+      <para>Peak Position 20 </para>
+      <para>Wks on Chart 8 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>22 Last Week: 19 </para>
+  </sect1>
+  <sect1>
+    <title>1-800-273-8255</title>
+    <para>Logic Featuring Alessia Cara &amp; Khalid </para>
+    <sect1 id="chart-row-22-secondary">
+      <para>Last Week 19 </para>
+      <para>Peak Position 3 </para>
+      <para>Wks on Chart 33 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>23 Last Week: 25 </para>
+  </sect1>
+  <sect1>
+    <title>Shape Of You</title>
+    <para>
+      <olink targetdocent="../../music/ed-sheeran">Ed Sheeran </olink>
+    </para>
+    <sect1 id="chart-row-23-secondary">
+      <para>Last Week 25 </para>
+      <para>Peak Position 1 </para>
+      <para>Wks on Chart 49 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>24 Last Week: 29 </para>
+  </sect1>
+  <sect1>
+    <title>The Way Life Goes</title>
+    <para>Lil Uzi Vert Featuring Nicki Minaj </para>
+    <sect1 id="chart-row-24-secondary">
+      <para>Last Week 29 </para>
+      <para>Peak Position 24 </para>
+      <para>Wks on Chart 16 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>25 Last Week: 27 </para>
+  </sect1>
+  <sect1>
+    <title>Love.</title>
+    <para>Kendrick Lamar Featuring Zacari </para>
+    <sect1 id="chart-row-25-secondary">
+      <para>Last Week 27 </para>
+      <para>Peak Position 18 </para>
+      <para>Wks on Chart 25 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>26 Last Week: 21 </para>
+  </sect1>
+  <sect1>
+    <title>Him &amp; I</title>
+    <para>G-Eazy &amp; Halsey </para>
+    <sect1 id="chart-row-26-secondary">
+      <para>Last Week 21 </para>
+      <para>Peak Position 21 </para>
+      <para>Wks on Chart 2 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>27 Last Week: 24 </para>
+  </sect1>
+  <sect1>
+    <title>Bank Account</title>
+    <para>
+      <olink targetdocent="../../music/21-savage">21 Savage </olink>
+    </para>
+    <sect1 id="chart-row-27-secondary">
+      <para>Last Week 24 </para>
+      <para>Peak Position 12 </para>
+      <para>Wks on Chart 23 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>28 Last Week: 31 </para>
+  </sect1>
+  <sect1>
+    <title>Meant To Be</title>
+    <para>Bebe Rexha &amp; Florida Georgia Line </para>
+    <sect1 id="chart-row-28-secondary">
+      <para>Last Week 31 </para>
+      <para>Peak Position 28 </para>
+      <para>Wks on Chart 8 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>29 Last Week: 26 </para>
+  </sect1>
+  <sect1>
+    <title>How Long</title>
+    <para>
+      <olink targetdocent="../../music/charlie-puth">Charlie Puth </olink>
+    </para>
+    <sect1 id="chart-row-29-secondary">
+      <para>Last Week 26 </para>
+      <para>Peak Position 26 </para>
+      <para>Wks on Chart 10 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>30 Last Week: 33 </para>
+  </sect1>
+  <sect1>
+    <title>Silence</title>
+    <para>
+      <olink targetdocent="../../music/marshmello-featuring-khalid">Marshmello Featuring Khalid </olink>
+    </para>
+    <sect1 id="chart-row-30-secondary">
+      <para>Last Week 33 </para>
+      <para>Peak Position 30 </para>
+      <para>Wks on Chart 18 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>31 Last Week: 32 </para>
+  </sect1>
+  <sect1>
+    <title>Despacito</title>
+    <para>Luis Fonsi &amp; Daddy Yankee Featuring Justin Bieber </para>
+    <sect1 id="chart-row-31-secondary">
+      <para>Last Week 32 </para>
+      <para>Peak Position 1 </para>
+      <para>Wks on Chart 48 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>32 Last Week: 28 </para>
+  </sect1>
+  <sect1>
+    <title>Young Dumb &amp; Broke</title>
+    <para>
+      <olink targetdocent="../../music/khalid">Khalid </olink>
+    </para>
+    <sect1 id="chart-row-32-secondary">
+      <para>Last Week 28 </para>
+      <para>Peak Position 22 </para>
+      <para>Wks on Chart 22 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>33 Last Week: 30 </para>
+  </sect1>
+  <sect1>
+    <title>Believer</title>
+    <para>
+      <olink targetdocent="../../music/imagine-dragons">Imagine Dragons </olink>
+    </para>
+    <sect1 id="chart-row-33-secondary">
+      <para>Last Week 30 </para>
+      <para>Peak Position 4 </para>
+      <para>Wks on Chart 45 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>34 Last Week: 37 </para>
+  </sect1>
+  <sect1>
+    <title>Rockin' Around The Christmas Tree</title>
+    <para>
+      <olink targetdocent="../../music/brenda-lee">Brenda Lee </olink>
+    </para>
+    <sect1 id="chart-row-34-secondary">
+      <para>Last Week 37 </para>
+      <para>Peak Position 14 </para>
+      <para>Wks on Chart 20 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>35 Last Week: 45 </para>
+  </sect1>
+  <sect1>
+    <title>It's The Most Wonderful Time Of The Year</title>
+    <para>
+      <olink targetdocent="../../music/andy-williams">Andy Williams </olink>
+    </para>
+    <sect1 id="chart-row-35-secondary">
+      <para>Last Week 45 </para>
+      <para>Peak Position 35 </para>
+      <para>Wks on Chart 3 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>36 Last Week: 35 </para>
+  </sect1>
+  <sect1>
+    <title>Sky Walker</title>
+    <para>Miguel Featuring Travis Scott </para>
+    <sect1 id="chart-row-36-secondary">
+      <para>Last Week 35 </para>
+      <para>Peak Position 35 </para>
+      <para>Wks on Chart 12 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>37 Last Week: 43 </para>
+  </sect1>
+  <sect1>
+    <title>...Ready For It?</title>
+    <para>
+      <olink targetdocent="../../music/taylor-swift">Taylor Swift </olink>
+    </para>
+    <sect1 id="chart-row-37-secondary">
+      <para>Last Week 43 </para>
+      <para>Peak Position 4 </para>
+      <para>Wks on Chart 15 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>38 Last Week: 42 </para>
+  </sect1>
+  <sect1>
+    <title>The Christmas Song (Merry Christmas To You)</title>
+    <para>
+      <olink targetdocent="../../music/nat-king-cole">Nat King Cole </olink>
+    </para>
+    <sect1 id="chart-row-38-secondary">
+      <para>Last Week 42 </para>
+      <para>Peak Position 38 </para>
+      <para>Wks on Chart 10 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>39 Last Week: 38 </para>
+  </sect1>
+  <sect1>
+    <title>The Weekend</title>
+    <para>
+      <olink targetdocent="../../music/sza">SZA </olink>
+    </para>
+    <sect1 id="chart-row-39-secondary">
+      <para>Last Week 38 </para>
+      <para>Peak Position 37 </para>
+      <para>Wks on Chart 20 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>40 Last Week: 34 </para>
+  </sect1>
+  <sect1>
+    <title>Unforgettable</title>
+    <para>French Montana Featuring Swae Lee </para>
+    <sect1 id="chart-row-40-secondary">
+      <para>Last Week 34 </para>
+      <para>Peak Position 3 </para>
+      <para>Wks on Chart 36 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>41 Last Week: 47 </para>
+  </sect1>
+  <sect1>
+    <title>A Holly Jolly Christmas</title>
+    <para>
+      <olink targetdocent="../../music/burl-ives">Burl Ives </olink>
+    </para>
+    <sect1 id="chart-row-41-secondary">
+      <para>Last Week 47 </para>
+      <para>Peak Position 41 </para>
+      <para>Wks on Chart 3 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>42 Last Week: 36 </para>
+  </sect1>
+  <sect1>
+    <title>Attention</title>
+    <para>
+      <olink targetdocent="../../music/charlie-puth">Charlie Puth </olink>
+    </para>
+    <sect1 id="chart-row-42-secondary">
+      <para>Last Week 36 </para>
+      <para>Peak Position 5 </para>
+      <para>Wks on Chart 34 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>43 Last Week: 40 </para>
+  </sect1>
+  <sect1>
+    <title>That's What I Like</title>
+    <para>
+      <olink targetdocent="../../music/bruno-mars">Bruno Mars </olink>
+    </para>
+    <sect1 id="chart-row-43-secondary">
+      <para>Last Week 40 </para>
+      <para>Peak Position 1 </para>
+      <para>Wks on Chart 48 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>44 Last Week: -- </para>
+  </sect1>
+  <sect1>
+    <title>Last Christmas</title>
+    <para>
+      <olink targetdocent="../../music/wham">Wham! </olink>
+    </para>
+    <sect1 id="chart-row-44-secondary">
+      <para>Last Week -- </para>
+      <para>Peak Position 41 </para>
+      <para>Wks on Chart 3 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>45 Last Week: 44 </para>
+  </sect1>
+  <sect1>
+    <title>Ric Flair Drip</title>
+    <para>Offset &amp; Metro Boomin </para>
+    <sect1 id="chart-row-45-secondary">
+      <para>Last Week 44 </para>
+      <para>Peak Position 44 </para>
+      <para>Wks on Chart 7 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>46 Last Week: 41 </para>
+  </sect1>
+  <sect1>
+    <title>Plain Jane</title>
+    <para>
+      <olink targetdocent="../../music/aap-ferg">A$AP Ferg </olink>
+    </para>
+    <sect1 id="chart-row-46-secondary">
+      <para>Last Week 41 </para>
+      <para>Peak Position 41 </para>
+      <para>Wks on Chart 12 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>47 Last Week: 50 </para>
+  </sect1>
+  <sect1>
+    <title>Humble.</title>
+    <para>
+      <olink targetdocent="../../music/kendrick-lamar">Kendrick Lamar </olink>
+    </para>
+    <sect1 id="chart-row-47-secondary">
+      <para>Last Week 50 </para>
+      <para>Peak Position 1 </para>
+      <para>Wks on Chart 37 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>48 Last Week: 46 </para>
+  </sect1>
+  <sect1>
+    <title>There's Nothing Holdin' Me Back</title>
+    <para>
+      <olink targetdocent="../../music/shawn-mendes">Shawn Mendes </olink>
+    </para>
+    <sect1 id="chart-row-48-secondary">
+      <para>Last Week 46 </para>
+      <para>Peak Position 6 </para>
+      <para>Wks on Chart 34 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>49 Last Week: 39 </para>
+  </sect1>
+  <sect1>
+    <title>End Game</title>
+    <para>Taylor Swift Featuring Ed Sheeran &amp; Future </para>
+    <sect1 id="chart-row-49-secondary">
+      <para>Last Week 39 </para>
+      <para>Peak Position 39 </para>
+      <para>Wks on Chart 4 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>50 Last Week: 61 </para>
+  </sect1>
+  <sect1>
+    <title>Kooda</title>
+    <para>6ix9ine </para>
+    <sect1 id="chart-row-50-secondary">
+      <para>Last Week 61 </para>
+      <para>Peak Position 50 </para>
+      <para>Wks on Chart 2 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>51 Last Week: 56 </para>
+  </sect1>
+  <sect1>
+    <title>Roll In Peace</title>
+    <para>Kodak Black Featuring XXXTENTACION </para>
+    <sect1 id="chart-row-51-secondary">
+      <para>Last Week 56 </para>
+      <para>Peak Position 51 </para>
+      <para>Wks on Chart 17 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>52 Last Week: 54 </para>
+  </sect1>
+  <sect1>
+    <title>Greatest Love Story</title>
+    <para>
+      <olink targetdocent="../../music/lanco">LANCO </olink>
+    </para>
+    <sect1 id="chart-row-52-secondary">
+      <para>Last Week 54 </para>
+      <para>Peak Position 45 </para>
+      <para>Wks on Chart 15 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>53 Last Week: 52 </para>
+  </sect1>
+  <sect1>
+    <title>Pills And Automobiles</title>
+    <para>Chris Brown Featuring Yo Gotti, A Boogie Wit da Hoodie &amp; Kodak Black </para>
+    <sect1 id="chart-row-53-secondary">
+      <para>Last Week 52 </para>
+      <para>Peak Position 46 </para>
+      <para>Wks on Chart 14 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>54 Last Week: 62 </para>
+  </sect1>
+  <sect1>
+    <title>Like I Loved You</title>
+    <para>
+      <olink targetdocent="../../music/brett-young">Brett Young </olink>
+    </para>
+    <sect1 id="chart-row-54-secondary">
+      <para>Last Week 62 </para>
+      <para>Peak Position 54 </para>
+      <para>Wks on Chart 12 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>55 Last Week: 48 </para>
+  </sect1>
+  <sect1>
+    <title>Rubbin Off The Paint</title>
+    <para>YBN Nahmir </para>
+    <sect1 id="chart-row-55-secondary">
+      <para>Last Week 48 </para>
+      <para>Peak Position 46 </para>
+      <para>Wks on Chart 6 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>56 Last Week: 55 </para>
+  </sect1>
+  <sect1>
+    <title>Let Me Go</title>
+    <para>Hailee Steinfeld &amp; Alesso Featuring Florida Georgia Line &amp; Watt </para>
+    <sect1 id="chart-row-56-secondary">
+      <para>Last Week 55 </para>
+      <para>Peak Position 53 </para>
+      <para>Wks on Chart 12 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>57 Last Week: 51 </para>
+  </sect1>
+  <sect1>
+    <title>What About Us</title>
+    <para>
+      <olink targetdocent="../../music/pnk">P!nk </olink>
+    </para>
+    <sect1 id="chart-row-57-secondary">
+      <para>Last Week 51 </para>
+      <para>Peak Position 13 </para>
+      <para>Wks on Chart 19 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>58 Last Week: 60 </para>
+  </sect1>
+  <sect1>
+    <title>Lemon</title>
+    <para>N*E*R*D &amp; Rihanna </para>
+    <sect1 id="chart-row-58-secondary">
+      <para>Last Week 60 </para>
+      <para>Peak Position 58 </para>
+      <para>Wks on Chart 6 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>59 Last Week: 66 </para>
+  </sect1>
+  <sect1>
+    <title>Lights Down Low</title>
+    <para>MAX Featuring gnash </para>
+    <sect1 id="chart-row-59-secondary">
+      <para>Last Week 66 </para>
+      <para>Peak Position 59 </para>
+      <para>Wks on Chart 10 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>60 Last Week: 63 </para>
+  </sect1>
+  <sect1>
+    <title>I'll Name The Dogs</title>
+    <para>
+      <olink targetdocent="../../music/blake-shelton">Blake Shelton </olink>
+    </para>
+    <sect1 id="chart-row-60-secondary">
+      <para>Last Week 63 </para>
+      <para>Peak Position 58 </para>
+      <para>Wks on Chart 14 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>New</para>
+    <para>61 Last Week: -- </para>
+  </sect1>
+  <sect1>
+    <title>Never Be The Same</title>
+    <para>
+      <olink targetdocent="../../music/camila-cabello">Camila Cabello </olink>
+    </para>
+    <sect1 id="chart-row-61-secondary">
+      <para>Last Week -- </para>
+      <para>Peak Position 61 </para>
+      <para>Wks on Chart 1 </para>
+      <orderedlist>
+        <listitem>
+          <para>Highest ranking debut </para>
+        </listitem>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>62 Last Week: 59 </para>
+  </sect1>
+  <sect1>
+    <title>Candy Paint</title>
+    <para>
+      <olink targetdocent="../../music/post-malone">Post Malone </olink>
+    </para>
+    <sect1 id="chart-row-62-secondary">
+      <para>Last Week 59 </para>
+      <para>Peak Position 59 </para>
+      <para>Wks on Chart 8 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>63 Last Week: 58 </para>
+  </sect1>
+  <sect1>
+    <title>Codeine Dreaming</title>
+    <para>Kodak Black Featuring Lil Wayne </para>
+    <sect1 id="chart-row-63-secondary">
+      <para>Last Week 58 </para>
+      <para>Peak Position 52 </para>
+      <para>Wks on Chart 3 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>64 Last Week: 64 </para>
+  </sect1>
+  <sect1>
+    <title>Good Old Days</title>
+    <para>Macklemore Featuring Kesha </para>
+    <sect1 id="chart-row-64-secondary">
+      <para>Last Week 64 </para>
+      <para>Peak Position 64 </para>
+      <para>Wks on Chart 8 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>65 Last Week: 57 </para>
+  </sect1>
+  <sect1>
+    <title>Light It Up</title>
+    <para>
+      <olink targetdocent="../../music/luke-bryan">Luke Bryan </olink>
+    </para>
+    <sect1 id="chart-row-65-secondary">
+      <para>Last Week 57 </para>
+      <para>Peak Position 57 </para>
+      <para>Wks on Chart 16 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>66 Last Week: 67 </para>
+  </sect1>
+  <sect1>
+    <title>Yours</title>
+    <para>
+      <olink targetdocent="../../music/russell-dickerson">Russell Dickerson </olink>
+    </para>
+    <sect1 id="chart-row-66-secondary">
+      <para>Last Week 67 </para>
+      <para>Peak Position 66 </para>
+      <para>Wks on Chart 9 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>67 Last Week: -- </para>
+  </sect1>
+  <sect1>
+    <title>Go Legend</title>
+    <para>Big Sean &amp; Metro Boomin Featuring Travis Scott </para>
+    <sect1 id="chart-row-67-secondary">
+      <para>Last Week -- </para>
+      <para>Peak Position 67 </para>
+      <para>Wks on Chart 1 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>68 Last Week: 65 </para>
+  </sect1>
+  <sect1>
+    <title>When It Rains It Pours</title>
+    <para>
+      <olink targetdocent="../../music/luke-combs">Luke Combs </olink>
+    </para>
+    <sect1 id="chart-row-68-secondary">
+      <para>Last Week 65 </para>
+      <para>Peak Position 33 </para>
+      <para>Wks on Chart 20 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>69 Last Week: 70 </para>
+  </sect1>
+  <sect1>
+    <title>Round Here Buzz</title>
+    <para>
+      <olink targetdocent="../../music/eric-church">Eric Church </olink>
+    </para>
+    <sect1 id="chart-row-69-secondary">
+      <para>Last Week 70 </para>
+      <para>Peak Position 68 </para>
+      <para>Wks on Chart 12 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>70 Last Week: 72 </para>
+  </sect1>
+  <sect1>
+    <title>Look What You Made Me Do</title>
+    <para>
+      <olink targetdocent="../../music/taylor-swift">Taylor Swift </olink>
+    </para>
+    <sect1 id="chart-row-70-secondary">
+      <para>Last Week 72 </para>
+      <para>Peak Position 1 </para>
+      <para>Wks on Chart 17 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>71 Last Week: 69 </para>
+  </sect1>
+  <sect1>
+    <title>Unforgettable</title>
+    <para>
+      <olink targetdocent="../../music/thomas-rhett">Thomas Rhett </olink>
+    </para>
+    <sect1 id="chart-row-71-secondary">
+      <para>Last Week 69 </para>
+      <para>Peak Position 47 </para>
+      <para>Wks on Chart 20 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>72 Last Week: -- </para>
+  </sect1>
+  <sect1>
+    <title>Dark Knight Dummo</title>
+    <para>Trippie Redd Featuring Travis Scott </para>
+    <sect1 id="chart-row-72-secondary">
+      <para>Last Week -- </para>
+      <para>Peak Position 72 </para>
+      <para>Wks on Chart 1 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>73 Last Week: 68 </para>
+  </sect1>
+  <sect1>
+    <title>Betrayed</title>
+    <para>Lil Xan </para>
+    <sect1 id="chart-row-73-secondary">
+      <para>Last Week 68 </para>
+      <para>Peak Position 67 </para>
+      <para>Wks on Chart 5 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>74 Last Week: 77 </para>
+  </sect1>
+  <sect1>
+    <title>Losing Sleep</title>
+    <para>
+      <olink targetdocent="../../music/chris-young">Chris Young </olink>
+    </para>
+    <sect1 id="chart-row-74-secondary">
+      <para>Last Week 77 </para>
+      <para>Peak Position 63 </para>
+      <para>Wks on Chart 12 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>75 Last Week: 75 </para>
+  </sect1>
+  <sect1>
+    <title>Echame La Culpa</title>
+    <para>Luis Fonsi &amp; Demi Lovato </para>
+    <sect1 id="chart-row-75-secondary">
+      <para>Last Week 75 </para>
+      <para>Peak Position 47 </para>
+      <para>Wks on Chart 4 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>76 Last Week: 73 </para>
+  </sect1>
+  <sect1>
+    <title>Pick It Up</title>
+    <para>Famous Dex Featuring A$AP Rocky </para>
+    <sect1 id="chart-row-76-secondary">
+      <para>Last Week 73 </para>
+      <para>Peak Position 73 </para>
+      <para>Wks on Chart 5 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>77 Last Week: -- </para>
+  </sect1>
+  <sect1>
+    <title>My Dawg</title>
+    <para>Lil Baby </para>
+    <sect1 id="chart-row-77-secondary">
+      <para>Last Week -- </para>
+      <para>Peak Position 77 </para>
+      <para>Wks on Chart 1 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>78 Last Week: 80 </para>
+  </sect1>
+  <sect1>
+    <title>I Could Use A Love Song</title>
+    <para>
+      <olink targetdocent="../../music/maren-morris">Maren Morris </olink>
+    </para>
+    <sect1 id="chart-row-78-secondary">
+      <para>Last Week 80 </para>
+      <para>Peak Position 75 </para>
+      <para>Wks on Chart 17 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>79 Last Week: 71 </para>
+  </sect1>
+  <sect1>
+    <title>MIC Drop</title>
+    <para>BTS Featuring Desiigner </para>
+    <sect1 id="chart-row-79-secondary">
+      <para>Last Week 71 </para>
+      <para>Peak Position 28 </para>
+      <para>Wks on Chart 3 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>80 Last Week: -- </para>
+  </sect1>
+  <sect1>
+    <title>Pull Up N Wreck</title>
+    <para>Big Sean &amp; Metro Boomin Featuring 21 Savage </para>
+    <sect1 id="chart-row-80-secondary">
+      <para>Last Week -- </para>
+      <para>Peak Position 80 </para>
+      <para>Wks on Chart 2 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>81 Last Week: 53 </para>
+  </sect1>
+  <sect1>
+    <title>Tell Me You Love Me</title>
+    <para>
+      <olink targetdocent="../../music/demi-lovato">Demi Lovato </olink>
+    </para>
+    <sect1 id="chart-row-81-secondary">
+      <para>Last Week 53 </para>
+      <para>Peak Position 53 </para>
+      <para>Wks on Chart 3 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>82 Last Week: -- </para>
+  </sect1>
+  <sect1>
+    <title>Danger</title>
+    <para>Migos &amp; Marshmello </para>
+    <sect1 id="chart-row-82-secondary">
+      <para>Last Week -- </para>
+      <para>Peak Position 82 </para>
+      <para>Wks on Chart 1 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>83 Last Week: 84 </para>
+  </sect1>
+  <sect1>
+    <title>You Broke Up With Me</title>
+    <para>
+      <olink targetdocent="../../music/walker-hayes">Walker Hayes </olink>
+    </para>
+    <sect1 id="chart-row-83-secondary">
+      <para>Last Week 84 </para>
+      <para>Peak Position 83 </para>
+      <para>Wks on Chart 8 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>84 Last Week: 76 </para>
+  </sect1>
+  <sect1>
+    <title>Wanted You</title>
+    <para>NAV Featuring Lil Uzi Vert </para>
+    <sect1 id="chart-row-84-secondary">
+      <para>Last Week 76 </para>
+      <para>Peak Position 64 </para>
+      <para>Wks on Chart 5 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>85 Last Week: 78 </para>
+  </sect1>
+  <sect1>
+    <title>Dusk Till Dawn</title>
+    <para>Zayn Featuring Sia </para>
+    <sect1 id="chart-row-85-secondary">
+      <para>Last Week 78 </para>
+      <para>Peak Position 44 </para>
+      <para>Wks on Chart 14 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>86 Last Week: -- </para>
+  </sect1>
+  <sect1>
+    <title>Untouchable</title>
+    <para>
+      <olink targetdocent="../../music/eminem">Eminem </olink>
+    </para>
+    <sect1 id="chart-row-86-secondary">
+      <para>Last Week -- </para>
+      <para>Peak Position 86 </para>
+      <para>Wks on Chart 1 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>87 Last Week: 83 </para>
+  </sect1>
+  <sect1>
+    <title>Mayores</title>
+    <para>Becky G Featuring Bad Bunny </para>
+    <sect1 id="chart-row-87-secondary">
+      <para>Last Week 83 </para>
+      <para>Peak Position 74 </para>
+      <para>Wks on Chart 8 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>88 Last Week: 82 </para>
+  </sect1>
+  <sect1>
+    <title>F**k Love</title>
+    <para>XXXTentacion Featuring Trippie Redd </para>
+    <sect1 id="chart-row-88-secondary">
+      <para>Last Week 82 </para>
+      <para>Peak Position 41 </para>
+      <para>Wks on Chart 16 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>89 Last Week: 88 </para>
+  </sect1>
+  <sect1>
+    <title>Written In The Sand</title>
+    <para>
+      <olink targetdocent="../../music/old-dominion">Old Dominion </olink>
+    </para>
+    <sect1 id="chart-row-89-secondary">
+      <para>Last Week 88 </para>
+      <para>Peak Position 88 </para>
+      <para>Wks on Chart 4 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>90 Last Week: 81 </para>
+  </sect1>
+  <sect1>
+    <title>Ghostface Killers</title>
+    <para>21 Savage, Offset &amp; Metro Boomin Featuring Travis Scott </para>
+    <sect1 id="chart-row-90-secondary">
+      <para>Last Week 81 </para>
+      <para>Peak Position 35 </para>
+      <para>Wks on Chart 7 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>91 Last Week: 89 </para>
+  </sect1>
+  <sect1>
+    <title>Too Much To Ask</title>
+    <para>
+      <olink targetdocent="../../music/niall-horan">Niall Horan </olink>
+    </para>
+    <sect1 id="chart-row-91-secondary">
+      <para>Last Week 89 </para>
+      <para>Peak Position 66 </para>
+      <para>Wks on Chart 8 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>92 Last Week: 97 </para>
+  </sect1>
+  <sect1>
+    <title>Marry Me</title>
+    <para>
+      <olink targetdocent="../../music/thomas-rhett">Thomas Rhett </olink>
+    </para>
+    <sect1 id="chart-row-92-secondary">
+      <para>Last Week 97 </para>
+      <para>Peak Position 92 </para>
+      <para>Wks on Chart 2 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>93 Last Week: -- </para>
+  </sect1>
+  <sect1>
+    <title>No Smoke</title>
+    <para>
+      <olink targetdocent="../../music/youngboy-never-broke-again">YoungBoy Never Broke Again </olink>
+    </para>
+    <sect1 id="chart-row-93-secondary">
+      <para>Last Week -- </para>
+      <para>Peak Position 93 </para>
+      <para>Wks on Chart 2 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>94 Last Week: 86 </para>
+  </sect1>
+  <sect1>
+    <title>When We</title>
+    <para>
+      <olink targetdocent="../../music/tank">Tank </olink>
+    </para>
+    <sect1 id="chart-row-94-secondary">
+      <para>Last Week 86 </para>
+      <para>Peak Position 86 </para>
+      <para>Wks on Chart 4 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>95 Last Week: 98 </para>
+  </sect1>
+  <sect1>
+    <title>Five More Minutes</title>
+    <para>
+      <olink targetdocent="../../music/scotty-mccreery">Scotty McCreery </olink>
+    </para>
+    <sect1 id="chart-row-95-secondary">
+      <para>Last Week 98 </para>
+      <para>Peak Position 95 </para>
+      <para>Wks on Chart 2 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>96 Last Week: 93 </para>
+  </sect1>
+  <sect1>
+    <title>Juice</title>
+    <para>
+      <olink targetdocent="../../music/yo-gotti">Yo Gotti </olink>
+    </para>
+    <sect1 id="chart-row-96-secondary">
+      <para>Last Week 93 </para>
+      <para>Peak Position 93 </para>
+      <para>Wks on Chart 2 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>97 Last Week: 91 </para>
+  </sect1>
+  <sect1>
+    <title>All On Me</title>
+    <para>
+      <olink targetdocent="../../music/devin-dawson">Devin Dawson </olink>
+    </para>
+    <sect1 id="chart-row-97-secondary">
+      <para>Last Week 91 </para>
+      <para>Peak Position 91 </para>
+      <para>Wks on Chart 4 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>98 Last Week: 87 </para>
+  </sect1>
+  <sect1>
+    <title>Jocelyn Flores</title>
+    <para>
+      <olink targetdocent="../../music/xxxtentacion">XXXTentacion </olink>
+    </para>
+    <sect1 id="chart-row-98-secondary">
+      <para>Last Week 87 </para>
+      <para>Peak Position 31 </para>
+      <para>Wks on Chart 16 </para>
+      <para>Share the Song</para>
+    </sect1>
+    <para>99 Last Week: -- </para>
+  </sect1>
+  <sect1>
+    <title>Legends</title>
+    <para>
+      <olink targetdocent="../../music/kelsea-ballerini">Kelsea Ballerini </olink>
+    </para>
+    <sect1 id="chart-row-99-secondary">
+      <para>Last Week -- </para>
+      <para>Peak Position 98 </para>
+      <para>Wks on Chart 2 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>100 Last Week: 96 </para>
+  </sect1>
+  <sect1>
+    <title>Faking It</title>
+    <para>Calvin Harris Featuring Kehlani &amp; Lil Yachty </para>
+    <sect1 id="chart-row-100-secondary">
+      <para>Last Week 96 </para>
+      <para>Peak Position 94 </para>
+      <para>Wks on Chart 4 </para>
+      <orderedlist>
+        <listitem>
+          <para>Gains in performance </para>
+        </listitem>
+      </orderedlist>
+      <para>Share the Song</para>
+    </sect1>
+    <para>Share the Chart</para>
+    <para>
+      <inlinegraphic fileref="https://www.billboard.com/files/styles/magazine_cover/public/media/bb29-u2-jkls-billboard-400.jpg" width="0.8071inch" depth="0.4138inch"/>
+      <ulink url="https://subscribe.billboard.com/sub/?p=BBL&amp;f=sale&amp;s=IB1404NS04"> </ulink>
+    </para>
+  </sect1>
+  <sect1>
+    <title>Magazine</title>
+    <orderedlist>
+      <listitem>
+        <para><ulink url="https://subscribe.billboard.com/sub/?p=BBL&amp;f=landing">Customer Service</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="https://subscribe.billboard.com/sub/?p=BBL&amp;f=sale&amp;s=IB1404NS03">Subscribe</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="http://shop.billboard.com/">Buy this issue</ulink> </para>
+      </listitem>
+    </orderedlist>
+  </sect1>
+  <sect1>
+    <title>Billboard biz</title>
+    <para>The online extension of Billboard Magazine, billboard.biz is the essential online destination for the music business.</para>
+    <para>
+      <olink targetdocent="../../biz">Learn More</olink>
+    </para>
+  </sect1>
+  <sect1>
+    <title>Sharing Billboard</title>
+    <orderedlist>
+      <listitem>
+        <para><ulink url="http://www.facebook.com/Billboard">Facebook</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="https://twitter.com/billboard">Twitter</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="https://plus.google.com/+Billboard/posts">Google+</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="http://youtube.com/billboard">YouTube</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="http://instagram.com/billboard">Instagram</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="http://billboard.tumblr.com/">Tumblr</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="http://pintrest.com/billboard">Pinterest</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="http://open.spotify.com/app/billboard">Spotify</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="https://www.billboard.com/newsletters">Newsletter</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="https://www.billboard.com/biz/newsletters">Newsletter</ulink> </para>
+      </listitem>
+    </orderedlist>
+  </sect1>
+  <sect1>
+    <title>Explore Billboard</title>
+    <orderedlist>
+      <listitem>
+        <para><ulink url="http://store.billboard.com/">Shop</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="https://www.billboard.com/archive/article">News Archive</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="https://www.billboard.com/photos">Photos Archive</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="https://www.billboard.com/archive/video_item">Videos Archive</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="http://www.billboard.com/magazine-archive">Magazine Archive</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="https://www.billboard.com/archive/charts">Charts Archive</ulink> </para>
+      </listitem>
+    </orderedlist>
+  </sect1>
+  <sect1>
+    <title>Information</title>
+    <orderedlist>
+      <listitem>
+        <para><ulink url="http://prometheusglobalmedia.applytojob.com/">Jobs</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="http://billboardlicensing.licensestream.com/">Chart Licensing</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="http://www.billboardevents.com/">Billboard Events</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="https://www.billboard.com/articles/news/468196/contact-us">Contact Us</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="https://www.billboard.com/p/sitemap">Sitemap</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="https://www.billboard.com/p/faq">FAQ</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="https://docs.google.com/spreadsheet/viewform?formkey=dDZ1RmJPWndBRmc0cThUOEMwMXhLMXc6MQ#gid=0">Feedback</ulink> </para>
+      </listitem>
+      <listitem>
+        <para><ulink url="http://www.metrolyrics.com/">Lyrics</ulink> </para>
+      </listitem>
+    </orderedlist>
+    <para><olink targetdocent="../../">Billboard</olink> </para>
+    <para>© 2017 Billboard. All Rights Reserved.</para>
+    <para><olink targetdocent="../../terms-of-use">Terms of Use</olink> <olink targetdocent="../../privacy-policy">Privacy Policy</olink> <olink targetdocent="../../about-our-ads">About Our Ads</olink> <ulink url="https://www.billboard.com/advertising">Advertising</ulink> </para>
+    <para>Billboard.com is a member of Billboard Music, a division of Billboard-Hollywood Reporter Media Group </para>
+    <sect1 id="fb-root">
+      <para>    window.CLARITY = window.CLARITY || [];    CLARITY.push({
+        use: ['ads'],
+        run: function(Ads) {
+            Ads.site_code = "billboard";
+            Ads.zone = "";
+
+            var keywords = [];
+
+            // Keyword injection
+            if (typeof(global_keywords) !== "undefined") {
+                keywords = global_keywords;
+            }
+
+            
+            Ads.keywords = keywords;
+
+                            Ads.autoPopulate();
+                    }
+    });	var _sf_async_config={};
+	/** CONFIGURATION START **/
+	_sf_async_config.uid = 3388;
+	_sf_async_config.domain = 'billboard.com';
+	_sf_async_config.useCanonical = true;
+	/** CONFIGURATION END **/
+	PGM.createScript('//static.chartbeat.com/js/chartbeat.js');    window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+    (function(){
+        var k=document.createElement('script');k.type='text/javascript';k.async=true;
+        k.src=(location.protocol==='https:'?'https:':'http:')+'//cdn.krxd.net/controltag/JsVUOKRj.js';
+        var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+    }());window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
+(function(){
+  function retrieve(n){
+    var k= 'kx'+''+n, ls=(function(){
+      try {
+        return window.localStorage;
+      } catch(e) {
+        return null;
+      }
+    })();
+    if (ls) {
+        return ls[k] || '';
+    } else if (navigator.cookieEnabled) {
+        var m = document.cookie.match(k+'=([^;]*)');
+        return (m &amp;&amp; unescape(m[1])) || '';
+    } else {
+        return '';
+    }
+  }
+  Krux.user = retrieve('user');
+  var segs = retrieve('segs');
+  Krux.segments = segs ? segs.split(',') : [];
+})();</para>
+    </sect1>
+    <para>    PGM.createScriptTag("//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.6&amp;appId=303838389949803");!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1554285401541797'); // Insert your pixel ID here.
+fbq('track', 'PageView');<note><remark>HTML: &lt;noscript&gt;</remark></note><inlinegraphic fileref="https://www.facebook.com/tr?id=1554285401541797&amp;ev=PageView&amp;noscript=1" width="0.0161inch" depth="0.0161inch"/><note><remark>HTML: &lt;/noscript&gt;</remark></note> /* &lt;![CDATA[ */
+var google_conversion_id = 879509920;
+var google_conversion_label = "wh8cCLa922cQoIOxowM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]&gt; */<note><remark>HTML: &lt;noscript&gt;</remark></note></para>
+    <para><inlinegraphic fileref="smb://googleads.g.doubleclick.net/pagead/viewthroughconversion/879509920/%3Fvalue=1.00¤cy_code=USD&amp;label=wh8cCLa922cQoIOxowM&amp;guid=ON&amp;script=0" width="0.0161inch" depth="0.0161inch"/> </para>
+    <para><note><remark>HTML: &lt;/noscript&gt;</remark></note>twttr.conversion.trackPid('nw8g2', { tw_sale_amount: 0, tw_order_quantity: 0 });<note><remark>HTML: &lt;noscript&gt;</remark></note><inlinegraphic fileref="https://analytics.twitter.com/i/adsct?txn_id=nw8g2&amp;p_id=Twitter&amp;tw_sale_amount=0&amp;tw_order_quantity=0" width="0.0161inch" depth="0.0161inch"/> <inlinegraphic fileref="smb://t.co/i/adsct%3Ftxn_id=nw8g2&amp;p_id=Twitter&amp;tw_sale_amount=0&amp;tw_order_quantity=0" width="0.0161inch" depth="0.0161inch"/><note><remark>HTML: &lt;/noscript&gt;</remark></note>   window._taboola = window._taboola || [];
+  _taboola.push({flush: true});</para>
+  </sect1>
+</article>
