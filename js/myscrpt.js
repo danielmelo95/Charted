@@ -33,7 +33,8 @@ function myFunction() {
         var newSongArtist= songArtist.replace('<span class="chart-row__artist">','');
         var newSongArtist2= newSongArtist.replace('</span>','');
 
-    document.getElementById("chart_place").innerHTML+='<div class = "billboard_chart_position" >'+'<span id="songNameSpan">'+(i+1)+'| '+newSongName2+'</span> '+newSongArtist2+'<br></div>';
+    document.getElementById("chart_place").innerHTML+='<div class = "billboard_chart_position" >'+'<span id="songNameSpan">'
+        +(i+1)+'| '+newSongName2+'</span> '+newSongArtist2+'<br></div>';
     }
 
 };
