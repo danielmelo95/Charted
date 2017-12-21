@@ -1,11 +1,13 @@
 #chart_place{
+
     font-size: 17px;
     margin-left: 20%;
     width: 60%;
     margin-top: 0%;
 }
 .billboard_chart_position{
-    padding: 10px 10px;
+    text-align: justify;
+    padding: 15px 10px;
     display: block;
     border: 2px solid white;
 }
@@ -15,13 +17,14 @@
 }
 
 #billbspan{
+    font-size: 30px;
     font-family: Lato-Heavy;
     position: absolute;
     top: 16%;
     margin-left: -7.5%;
 }
-#chart_place span{
-    font-size: 30px;
+#chart_place span:not(#billbspan){
+    font-size: 23px;
 
 }
 nav[role="sub"]{
