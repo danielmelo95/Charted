@@ -25,10 +25,15 @@ function myFunction() {
     //console.log(ChartString[2]);
     //0-99 places , we need index and <h2 class="chart-row__song"> and <span class="chart-row__artist">
     for(var i=0; i< ChartString.length; i++){
-    var songName = ChartString[i].match(regex2);
-    var songArtist = ChartString[i].match(regex3);
-    console.log(songName + ": "+ songArtist);
-    document.getElementById("chart_place").innerHTML+='<div class = "billboard_chart_position" ><h2>'+(i+1)+'</h2>'+songArtist +songName+'<br></div>';
+    var songName = ChartString[i].match(regex2)+'';
+    var songArtist = ChartString[i].match(regex3)+'';
+   // console.log(songName + ": "+ songArtist);
+        var newSongName = songName.replace('<h2 class="chart-row__song">','');
+        var newSongName2 = newSongName.replace('</h2>','');
+        var newSongArtist= songArtist.replace('<span class="chart-row__artist">','');
+        var newSongArtist2= newSongArtist.replace('</span>','');
+
+    document.getElementById("chart_place").innerHTML+='<div class = "billboard_chart_position" >'+'<span id="songNameSpan">'+(i+1)+'| '+newSongName2+'</span> '+newSongArtist2+'<br></div>';
     }
 
 };
