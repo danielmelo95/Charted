@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 app.use(express.static(__dirname + '/client'));
 
 // DB SETUP
-MONGOLAB_URI = "mongodb://Joesepherus:ggnoreJOES5637@ds131137.mlab.com:31137/charted";
+MONGOLAB_URI = "mongodb://admin:heslo123ahoj50@ds131137.mlab.com:31137/charted";
 
 mongoose.connect(MONGOLAB_URI, function (error) {
 	if (error) console.error(error);
@@ -19,9 +19,8 @@ Song = require('./models/song.js');
 //mongoose.connect('mongodb://localhost/todolist');
 var db = mongoose.connection;
 
-// 										SCHEDULER
+// SCHEDULER
 // --------------------------------------------------------------------------------------------
-
 var fs = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
@@ -36,6 +35,8 @@ var j = schedule.scheduleJob(rule, function () {
 	};
 	url = 'https://www.billboard.com/charts/hot-100';
 
+	// WEB PAGES SCRAPING
+	// --------------------------------------------------------------------------------------------
 	request(url, function (error, response, html) {
 		if (!error) {
 			var $ = cheerio.load(html);
@@ -46,109 +47,30 @@ var j = schedule.scheduleJob(rule, function () {
 			$('.chart-row__title').each(function () {
 				author = $(this).find('.chart-row__artist').first().text();
 				author = author.replace(/(\r\n|\n|\r)/gm, "");
-
 				json.author = author;
 				title = $(this).find('.chart-row__song').first().text();
 				json.title = title;
-				//obj.table.push(json);
 				obj.table.push(JSON.parse('{\n\t"id": "' + counter + '",\n\t"title": "' + json.title + '",\n\t"author": "' + json.author + '"\n}'));
 				json.id = counter++;
 			})
 		}
-		//console.log(obj.table);
-
+	// --------------------------------------------------------------------------------------------
+		
+		// delete collection 
 		db.collection("songs").drop();
 		console.log("songs deleted");
 
+		// add new songs to the collection
 		db.collection("songs").insertMany(obj.table, function (err, r) {
 			console.log("inserted songs");
 		});
-
-		fs.writeFile("test.json", obj.table, function (err) {
-			if (err) {
-				return console.log(err);
-			}
-
-			console.log("The file was saved!");
-		});
 	})
-
-
 });
 
 // --------------------------------------------------------------------------------------------
 
-
-// 										WEB PAGES SCRAPING
+// SERVER API WORKING WITH DATABASE
 // --------------------------------------------------------------------------------------------
-
-
-/*
-var fs = require('fs');
-var request = require('request');
-var cheerio = require('cheerio');
-
-//app.get('/scrape', function(req, res){
-
-url = 'https://www.billboard.com/charts/hot-100';
-
-request(url, function (error, response, html) {
-	if (!error) {
-		var $ = cheerio.load(html);
-
-		var title, release, rating;
-		var json = { title: "", release: "", rating: "" };
-
-		// We'll use the unique header class as a starting point.
-
-		$('.chart-row__artist').filter(function () {
-
-			// Let's store the data we filter into a variable so we can easily see what's going on.
-
-			var data = $(this);
-
-			// In examining the DOM we notice that the title rests within the first child element of the header tag. 
-			// Utilizing jQuery we can easily navigate and get the text by writing the following code:
-
-			title = data.first().text();
-
-			// Once we have our title, we'll store it to the our json object.
-
-			json.title = title;
-			console.log("LOL " + json.title);
-
-		})
-	}
-})
-//}) 
-*/
-
-
-
-/*var request = require("request");
-var bodyHelp;
-
-request({
-	uri: "https://www.billboard.com/charts/hot-100",
-}, function (error, response, body) {
-	var fs = require('fs');
-	fs.writeFile("test.txt", body, function (err) {
-		if (err) {
-			return console.log(err);
-		}
-	
-		console.log("The file was saved!");
-	});
-	
-});
-
-console.log("lol " + bodyHelp);*/
-
-// --------------------------------------------------------------------------------------------
-
-// 											DATABASE
-// --------------------------------------------------------------------------------------------
-
 var db = mongoose.connection;
 
 var fs = require("fs");
@@ -227,7 +149,6 @@ app.delete('/api/Song/deleted/:id', function (req, res) {
 		});
 })
 
-// --------------------------------------------------------------------------------------------
 
 // calling server to listen on port
 var server = app.listen(process.env.PORT || 98, function () {
@@ -235,3 +156,4 @@ var server = app.listen(process.env.PORT || 98, function () {
 	var port = server.address().port;
 	console.log("App listening at http://%s:%s", host, port);
 })
+// --------------------------------------------------------------------------------------------

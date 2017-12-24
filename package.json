@@ -1,7 +1,7 @@
 {
-  "name": "To-do list",
+  "name": "Charted",
   "version": "1.0.0",
-  "description": "To-do list web application",
+  "description": "Web app for music enthusiast",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,10 @@
   	"express":"*",
   	"body-parser":"*",
     "mongoose":"*",
-    "bootstrap-year-calendar":"*"
+    "bootstrap-year-calendar":"*",
+    "cheerio":"*",
+    "request":"*",
+    "node-schedule":"*"
   },
   "author": "Jozef Maloch",
   "license": "ISC"
