@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="sk" ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <title>Charted | Home</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/overviewcss.css">
+    <link rel="icon" type="css/imgs/png" href="css/imgs/favic.png" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <ul id="menu">
+                <li id="menu_img_li">
+                    <a data-toggle="tab" href="#!/intro">
+                        <img id="menu_img" src="css/imgs/logo_and_text2.png">
+                    </a>
+                </li>
+                <li>
+                    <a data-toggle="tab" href="#!/intro">SOMETHING</a>
+                </li>
+                <li>
+                    <a data-toggle="tab" href="#!/intro">SOMETHING</a>
+                </li>
+                <li>
+                    <a data-toggle="tab" href="#!/intro">SOMETHING</a>
+                </li>
+                <li>
+                    <a data-toggle="tab" href="#!/billboard">OVERVIEW</a>
+                </li>
+                <li>
+                    <a data-toggle="tab" class="active" href="#!/intro">HOME</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div ng-view>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+    </footer>
+
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/angular/angular.js"></script>
+    <script src="/bower_components/angular-route/angular-route.js"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="/app.js"></script>
+    <script src="/controllers/song.js"></script>
+</body>
+
+</html>

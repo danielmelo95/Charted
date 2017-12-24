@@ -1,0 +1,11 @@
+<div class="container" ng-init="getAllSongs()">
+    <article id="chart_place">
+        <span id="billbspan"> Top played songs according to</span>
+        <img id="billboard_img" src="../css/imgs/billb_logo.png">
+        <div class="container" ng-repeat="song in allSongs">
+            <div class="billboard_chart_position">
+                <span id="songNameSpan">{{song.id}} | {{song.title}} – </span>{{song.author}}
+            </div>
+        </div>
+    </article>
+</div>
