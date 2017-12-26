@@ -2,8 +2,12 @@ var myApp = angular.module('myApp', ['ngRoute']);
 
 myApp.config(function($routeProvider){
 	$routeProvider.when("/billboard", {
-		controller: "songController",
+		controller: "billboardController",
 		templateUrl: "views/overview-billboard.html",
+	})
+	.when("/officialcharts", {
+		controller: "officialchartsController",
+		templateUrl: "views/overview-officialcharts.html",
 	})
 	.when("/intro", {
 		controller: "introController",
