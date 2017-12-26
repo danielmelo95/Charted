@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Lato-Light;
+    src: url('../fonts/LatoLatin-Light.eot');
+    src:url('../fonts/LatoLatin-Light.woff') format('woff');
+    src:url('../fonts/LatoLatin-Light.ttf') format('truetype');
+    /*url('tagesschrift.svg#font') format('svg');*/
+}
+@font-face {
+    font-family: Lato-Italic;
+    src: url('../fonts/LatoLatin-Italic.eot');
+    src:url('../fonts/LatoLatin-Italic.woff') format('woff');
+    src:url('../fonts/LatoLatin-Italic.ttf') format('truetype');
+    /*url('tagesschrift.svg#font') format('svg'); */
+}
+@font-face {
+    font-family: Lato-BoldItalic;
+    src: url('../fonts/LatoLatin-BoldItalic.eot');
+    src:url('../fonts/LatoLatin-BoldItalic.woff') format('woff');
+    src:url('../fonts/LatoLatin-BoldItalic.ttf') format('truetype');
+    /*url('tagesschrift.svg#font') format('svg'); /* iOS */
+}
+@font-face {
+    font-family: Lato-Heavy;
+    src: url('../fonts/Lato-Heavy.eot');
+    src:url('../fonts/Lato-Heavy.woff') format('woff');
+    src:url('../fonts/Lato-Heavy.ttf') format('truetype');
+    /*url('tagesschrift.svg#font') format('svg'); /* iOS */
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+
+    font-family: "Lato-Heavy";
+    border: none;
+    background-color: #ffffff;
+    margin-bottom: 0;
+    border-radius: 0px;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+    height: 450px
+
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 20px;
+    height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;}
+    #menu_img{
+        width: 170px;
+    }
+}
+@media screen and (min-width: 768px) {
+    #menu_img{
+        width: 250px;
+    }
+}
+@media screen and (min-width: 391px) {
+
+}
+.navbar li a{
+    text-align:center;
+    padding:25px 32px;
+    text-decoration: none;
+}
+
+.navbar li a:hover:not(.active){
+    color: black;
+    background-color: rgba(45, 44, 44, 0.12);
+    /*color: #0004ff;*/
+    transition: 0.5s;
+}
+.active{
+    background-color: rgba(45, 44, 44, 0.17);
+}
+.navbar li:not(#menu_img_li){
+    /*width1:25%;*/
+}
+.navbar li a.active{
+    background-color: rgba(45, 44, 44, 0.17);
+}
+body{
+    font-family: "Lato-Light";
+    color: white;
+    background: url(../imgs/background3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navbar-brand{
+
+    padding-top: 0;
+}
+.well{
+    background-color: transparent;
+}
