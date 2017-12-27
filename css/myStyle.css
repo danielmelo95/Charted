@@ -29,6 +29,7 @@
 
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
+    z-index: 3;
     color: #001d07;
     font-family: "Lato-Heavy";
     border: none;
@@ -134,8 +135,9 @@ nav{
 }
 #welcome_button{
     font-family: "Lato-Heavy";
-
-    border-radius: 8px;
+    position: relative;
+    z-index: 999;
+    border-radius: 15px;
     background-color: #fbfff5; /* Green */
     border: none;
     color: #004701;
@@ -162,8 +164,8 @@ nav{
     background-color: rgba(45, 44, 44, 0.17);
 }
 #side_nav_links{
+    height:230px;
     padding: 0px;
-    height: 100%;
 }
 #side_nav_links  p {
     color: white;
@@ -186,4 +188,15 @@ nav{
 }
 #hamb_menu{
     background-color: #343434;
+}
+#particles-js{
+    z-index: 2;
+    width: 99%;
+    height: 99%;
+    position: absolute;
+    top: 0;
+}
+#welcome_scrn>p{
+    font-family: "LatoLatin Light";
+    font-size: 22px;
 }

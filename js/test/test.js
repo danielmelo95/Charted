@@ -7,7 +7,7 @@ xmlhttp.onreadystatechange = function() {
         myFunction();
     }
 };
-xmlhttp.open("GET","billboard-top100.html" , true);
+xmlhttp.open("GET","test_html/billboard-top100.html" , true);
 xmlhttp.send();
 
 
