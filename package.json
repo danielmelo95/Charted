@@ -13,7 +13,9 @@
     "bootstrap-year-calendar":"*",
     "cheerio":"*",
     "request":"*",
-    "node-schedule":"*"
+    "node-schedule":"*",
+    "winston":"*",
+    "nodemailer":"*"
   },
   "author": "Jozef Maloch",
   "license": "ISC"
