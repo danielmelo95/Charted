@@ -6,16 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies":{
-  	"express":"*",
-  	"body-parser":"*",
-    "mongoose":"*",
-    "bootstrap-year-calendar":"*",
-    "cheerio":"*",
-    "request":"*",
-    "node-schedule":"*",
-    "winston":"*",
-    "nodemailer":"*"
+  "dependencies": {
+    "asyncawait": "^1.0.6",
+    "body-parser": "*",
+    "bootstrap-year-calendar": "*",
+    "cheerio": "*",
+    "express": "*",
+    "googleapis": "^23.0.0",
+    "mongoose": "*",
+    "node-schedule": "*",
+    "nodemailer": "*",
+    "request": "*",
+    "winston": "*"
   },
   "author": "Jozef Maloch",
   "license": "ISC"

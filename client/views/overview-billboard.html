@@ -35,7 +35,13 @@
         <div class="container" ng-repeat="song in allSongs">
             <div class="billboard_chart_position">
                 <span id="songNameSpan">{{song.id}} | {{song.title}} – </span>{{song.author}}
+                <div class="col-6 iconsDiv">
+                    <a data-toggle="tooltip" title="Youtube" href="https://www.youtube.com/watch?v={{song.url}}" target="_blank"><img class="youtubeIcon" src="../css/imgs/youtubeIcon3.png"></a>
+                    <a data-toggle="tooltip" title="Spotify" href="#" target="_blank"><img class="youtubeIcon" src="../css/imgs/spotifyIcon.png"></a>
+                    <a data-toggle="tooltip" title="ApplePlay" href="#" target="_blank"><img class="youtubeIcon" src="../css/imgs/applePlayIcon.png"></a>
+                </div>
             </div>
         </div>
     </article>
 </div>
+

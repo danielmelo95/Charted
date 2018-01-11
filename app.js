@@ -8,6 +8,8 @@ var schedule = require('node-schedule');
 var MongoClient = require('mongodb').MongoClient;
 app.use(bodyParser.json());
 app.use(express.static(__dirname + '/client'));
+var async = require('asyncawait/async');
+var await = require('asyncawait/await');
 
 //mongoose.connect('mongodb://localhost/todolist');
 var db = mongoose.connection;
@@ -101,6 +103,7 @@ var rule = new schedule.RecurrenceRule();
 rule.minute = 1;
 
 app.get('/scrapper', function (req, res) {
+
 	clientIP = getClientIP(req);
 	logger.info('Got a connection from IP address' + clientIP + ' to scrape websites and save them to DB');
 	res.send("thanks for the ping :)");
@@ -124,29 +127,29 @@ app.get('/scrapper', function (req, res) {
 					var $ = cheerio.load(html);
 					var counter = 1;
 					var title, release, rating;
+					db.collection("billboards").drop();
+				}
 
+				(async(function asyncCall() {
 					$('.chart-row__title').each(function () {
 						author = $(this).find('.chart-row__artist').first().text();
 						author = author.replace(/(\r\n|\n|\r)/gm, "");
 						title = $(this).find('.chart-row__song').first().text();
-						obj.table.push(JSON.parse('{\n\t"id": "' + counter + '",\n\t"title": "' + title + '",\n\t"author": "' + author + '"\n}'));
+						logger.info('calling');
+						var result = await(searchYoutube(title, author, function (data) {
+							data = (JSON.parse('{\n\t"id": "' + counter + '",\n\t"title": "' + title + '",\n\t"author": "' + author + '",\n\t"url": "' + data.items[0].id.videoId + '"\n}'));
+							logger.info(data);
+							db.collection("billboards").insertOne(data, function (err, res) {
+								if (err) throw err;
+								logger.info("1 document inserted to billboards collection");
+							});
+						}));
+
+						logger.info(result);
+						logger.info("______________________________________________");
 						counter++;
 					})
-				}
-				if (obj.table.length > 0) {
-					logger.info(url + " successfuly scraped.");
-					// delete collection 
-					db.collection("billboards").drop();
-					logger.info("collection billboard deleted");
-
-					// add new songs to the collection
-					db.collection("billboards").insertMany(obj.table, function (err, r) {
-						logger.info("inserted songs to collection billboard");
-					});
-				}
-				else {
-					logger.info(url + " is not responding");
-				}
+				}))();
 			})
 		}
 
@@ -188,10 +191,39 @@ app.get('/scrapper', function (req, res) {
 			})
 		}
 		// --------------------------------------------------------------------------------------------
-		//});
 	}
 })
 
+// --------------------------------------------------------------------------------------------
+
+// WORKING WITH YOUTUBE API
+// --------------------------------------------------------------------------------------------
+var google = require('googleapis');
+var youtube = google.youtube({
+	version: 'v3',
+	auth: "AIzaSyBpyV7rACEbUcnbyzKNhq85tc9kEKeNZiY"
+});
+
+function searchYoutube(title, author, fn) {
+
+	youtube.search.list({
+		part: 'id, snippet',
+		q: title + " " + author,
+		maxResults: "1",
+	}, function (err, data) {
+		if (err) {
+			console.error('Error: ' + err);
+		}
+		if (data) {
+			fn(data);
+		}
+	});
+	return new Promise(resolve => {
+		setTimeout(() => {
+			resolve('resolved');
+		}, 1000);
+	});
+}
 // --------------------------------------------------------------------------------------------
 
 // SERVER API WORKING WITH DATABASE

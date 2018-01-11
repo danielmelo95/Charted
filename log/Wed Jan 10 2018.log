@@ -1,0 +1,332 @@
+{"level":"info","message":"Starting application","timestamp":"6:51:28 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"6:51:28 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"6:51:28 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"6:51:29 PM"}
+{"level":"info","message":"Starting application","timestamp":"6:52:09 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"6:52:09 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"6:52:09 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"6:52:10 PM"}
+{"level":"info","message":"Starting application","timestamp":"6:55:12 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"6:55:12 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"6:55:13 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"6:55:13 PM"}
+{"level":"info","message":"Starting application","timestamp":"6:55:49 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"6:55:49 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"6:55:49 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"6:55:49 PM"}
+{"level":"info","message":"Starting application","timestamp":"7:10:14 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"7:10:14 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"7:10:14 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"7:10:15 PM"}
+{"level":"info","message":"Starting application","timestamp":"7:11:02 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"7:11:02 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"7:11:02 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"7:11:03 PM"}
+{"level":"info","message":"Starting application","timestamp":"7:11:22 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"7:11:22 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"7:11:22 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"7:11:23 PM"}
+{"level":"info","message":"Starting application","timestamp":"7:19:21 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"7:19:21 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"7:19:21 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"7:19:22 PM"}
+{"level":"info","message":"Starting application","timestamp":"7:19:50 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"7:19:50 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"7:19:50 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"7:19:51 PM"}
+{"level":"info","message":"Starting application","timestamp":"7:21:00 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"7:21:00 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"7:21:00 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"7:21:01 PM"}
+{"level":"info","message":"Starting application","timestamp":"7:21:07 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"7:21:07 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"7:21:07 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"7:21:08 PM"}
+{"level":"info","message":"Starting application","timestamp":"7:21:33 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"7:21:33 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"7:21:33 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"7:21:34 PM"}
+{"level":"info","message":"Starting application","timestamp":"7:22:26 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"7:22:26 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"7:22:26 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"7:22:27 PM"}
+{"level":"info","message":"Starting application","timestamp":"7:23:33 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"7:23:33 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"7:23:34 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"7:23:34 PM"}
+{"level":"info","message":"Starting application","timestamp":"7:23:38 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"7:23:38 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"7:23:38 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"7:23:39 PM"}
+{"level":"info","message":"Starting application","timestamp":"9:48:22 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"9:48:22 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"9:48:22 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"9:48:23 PM"}
+{"level":"info","message":"Starting application","timestamp":"9:49:20 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"9:49:20 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"9:49:20 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"9:49:20 PM"}
+{"level":"info","message":"Starting application","timestamp":"9:49:39 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"9:49:39 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"9:49:39 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"9:49:40 PM"}
+{"level":"info","message":"Starting application","timestamp":"9:59:21 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"9:59:21 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"9:59:25 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"9:59:26 PM"}
+{"level":"info","message":"Starting application","timestamp":"10:00:10 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"10:00:10 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"10:00:13 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"10:00:13 PM"}
+{"level":"info","message":"Starting application","timestamp":"10:00:50 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"10:00:50 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"10:00:53 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"10:00:53 PM"}
+{"level":"info","message":"Starting application","timestamp":"10:01:29 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"10:01:29 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"10:01:32 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"10:01:32 PM"}
+{"level":"info","message":"Starting application","timestamp":"10:05:33 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"10:05:33 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"10:05:36 PM"}
+{"level":"info","message":"Starting application","timestamp":"10:05:40 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"10:05:40 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"10:05:42 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"10:05:42 PM"}
+{"level":"info","message":"Starting application","timestamp":"10:06:55 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"10:06:55 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"10:06:57 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"10:06:58 PM"}
+{"level":"info","message":"Starting application","timestamp":"10:07:58 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"10:07:58 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"10:08:01 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"10:08:02 PM"}
+{"level":"info","message":"Got a connection from IP address::1 to scrape websites and save them to DB","timestamp":"10:08:04 PM"}
+{"level":"info","message":"Starting application","timestamp":"10:09:24 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"10:09:24 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"10:09:27 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"10:09:27 PM"}
+{"level":"info","message":"Starting application","timestamp":"10:09:47 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"10:09:47 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"10:09:49 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"10:09:50 PM"}
+{"level":"info","message":"Starting application","timestamp":"10:10:06 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"10:10:06 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"10:10:07 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"10:10:08 PM"}
+{"level":"info","message":"Got a connection from IP address::1 to scrape websites and save them to DB","timestamp":"10:10:10 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"10:10:10 PM"}
+{"level":"info","message":"https://www.billboard.com/charts/hot-100 successfuly scraped.","timestamp":"10:10:12 PM"}
+{"level":"info","message":"collection billboard deleted","timestamp":"10:10:12 PM"}
+{"level":"info","message":"inserted songs to collection billboard","timestamp":"10:10:13 PM"}
+{"level":"info","message":"http://www.officialcharts.com/chart-news/the-official-top-40-biggest-songs-of-2017-so-far__18652/ successfuly scraped.","timestamp":"10:10:14 PM"}
+{"level":"info","message":"collection officialcharts deleted","timestamp":"10:10:14 PM"}
+{"level":"info","message":"inserted songs to collection officialcharts","timestamp":"10:10:14 PM"}
+{"level":"info","message":"Starting application","timestamp":"10:41:23 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"10:41:23 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"10:41:25 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"10:41:26 PM"}
+{"level":"info","message":"Starting application","timestamp":"10:41:31 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"10:41:31 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"10:41:34 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"10:41:34 PM"}
+{"level":"info","message":"Starting application","timestamp":"10:41:48 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"10:41:48 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"10:41:51 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"10:41:52 PM"}
+{"level":"info","message":"Got a connection from IP address::1 to scrape websites and save them to DB","timestamp":"10:42:05 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"10:42:05 PM"}
+{"level":"info","message":"Starting application","timestamp":"10:42:51 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"10:42:51 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"10:42:54 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"10:42:55 PM"}
+{"level":"info","message":"Got a connection from IP address::1 to scrape websites and save them to DB","timestamp":"10:43:03 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"10:43:03 PM"}
+{"level":"info","message":"Starting application","timestamp":"10:44:11 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"10:44:11 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"10:44:13 PM"}
+{"level":"info","message":"Got a connection from IP address::ffff:127.0.0.1 to scrape websites and save them to DB","timestamp":"10:44:13 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"10:44:13 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"10:44:13 PM"}
+{"level":"info","message":"Starting application","timestamp":"10:56:18 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"10:56:18 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"10:56:20 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"10:56:21 PM"}
+{"level":"info","message":"Starting application","timestamp":"10:56:26 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"10:56:26 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"10:56:28 PM"}
+{"level":"info","message":"Starting application","timestamp":"10:56:32 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"10:56:32 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"10:56:36 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"10:56:37 PM"}
+{"level":"info","message":"Got a connection from IP address::1 to scrape websites and save them to DB","timestamp":"10:56:38 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"10:56:38 PM"}
+{"level":"info","message":"Starting application","timestamp":"10:57:00 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"10:57:00 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"10:57:06 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"10:57:06 PM"}
+{"level":"info","message":"Got a connection from IP address::1 to scrape websites and save them to DB","timestamp":"10:57:14 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"10:57:15 PM"}
+{"level":"info","message":"Starting application","timestamp":"10:57:49 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"10:57:49 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"10:57:52 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"10:57:52 PM"}
+{"level":"info","message":"Starting application","timestamp":"10:58:03 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"10:58:03 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"10:58:05 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"10:58:06 PM"}
+{"level":"info","message":"Got a connection from IP address::1 to scrape websites and save them to DB","timestamp":"10:58:16 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"10:58:16 PM"}
+{"level":"info","message":"https://www.billboard.com/charts/hot-100 successfuly scraped.","timestamp":"10:58:17 PM"}
+{"level":"info","message":"collection billboard deleted","timestamp":"10:58:17 PM"}
+{"level":"info","message":"inserted songs to collection billboard","timestamp":"10:58:18 PM"}
+{"level":"info","message":"http://www.officialcharts.com/chart-news/the-official-top-40-biggest-songs-of-2017-so-far__18652/ successfuly scraped.","timestamp":"10:58:19 PM"}
+{"level":"info","message":"collection officialcharts deleted","timestamp":"10:58:19 PM"}
+{"level":"info","message":"inserted songs to collection officialcharts","timestamp":"10:58:19 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:01:39 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:01:39 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:01:41 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:01:42 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:02:07 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:02:07 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:02:09 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:02:10 PM"}
+{"level":"info","message":"Got a connection from IP address::1 to scrape websites and save them to DB","timestamp":"11:02:22 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"11:02:22 PM"}
+{"level":"info","message":"https://www.billboard.com/charts/hot-100 is not responding","timestamp":"11:02:23 PM"}
+{"level":"info","message":"http://www.officialcharts.com/chart-news/the-official-top-40-biggest-songs-of-2017-so-far__18652/ successfuly scraped.","timestamp":"11:02:25 PM"}
+{"level":"info","message":"collection officialcharts deleted","timestamp":"11:02:25 PM"}
+{"level":"info","message":"inserted songs to collection officialcharts","timestamp":"11:02:26 PM"}
+{"level":"info","message":"Got a connection from IP address::1 to scrape websites and save them to DB","timestamp":"11:02:55 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"11:02:55 PM"}
+{"level":"info","message":"https://www.billboard.com/charts/hot-100 is not responding","timestamp":"11:02:56 PM"}
+{"level":"info","message":"http://www.officialcharts.com/chart-news/the-official-top-40-biggest-songs-of-2017-so-far__18652/ successfuly scraped.","timestamp":"11:02:59 PM"}
+{"level":"info","message":"collection officialcharts deleted","timestamp":"11:02:59 PM"}
+{"level":"info","message":"inserted songs to collection officialcharts","timestamp":"11:02:59 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:05:28 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:05:28 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:05:31 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:05:32 PM"}
+{"level":"info","message":"Got a connection from IP address::1 to scrape websites and save them to DB","timestamp":"11:05:34 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"11:05:34 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:05:58 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:05:58 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:06:00 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:06:00 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:08:37 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:08:37 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:08:39 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:08:39 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:09:02 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:09:02 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:09:05 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:09:05 PM"}
+{"level":"info","message":"Got a connection from IP address::1 to scrape websites and save them to DB","timestamp":"11:09:06 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"11:09:06 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:10:14 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:10:14 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:10:16 PM"}
+{"level":"info","message":"Got a connection from IP address::ffff:127.0.0.1 to scrape websites and save them to DB","timestamp":"11:10:16 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"11:10:16 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:12:21 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:12:22 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:12:24 PM"}
+{"level":"info","message":"Got a connection from IP address::1 to scrape websites and save them to DB","timestamp":"11:12:24 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"11:12:24 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:12:25 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:13:08 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:13:08 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:13:12 PM"}
+{"level":"info","message":"Got a connection from IP address::ffff:127.0.0.1 to scrape websites and save them to DB","timestamp":"11:13:12 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"11:13:12 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:13:25 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:13:25 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:13:28 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:13:28 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:14:48 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:14:48 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:14:51 PM"}
+{"level":"info","message":"Got a connection from IP address::1 to scrape websites and save them to DB","timestamp":"11:14:52 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"11:14:52 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:14:52 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:15:07 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:15:07 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:15:11 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:15:12 PM"}
+{"level":"info","message":"Got a connection from IP address::1 to scrape websites and save them to DB","timestamp":"11:15:12 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"11:15:12 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:15:50 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:15:50 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:15:52 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:15:52 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:17:28 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:17:28 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:17:31 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:17:31 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:17:46 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:17:46 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:17:48 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:17:49 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:28:48 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:28:48 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:28:52 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:28:52 PM"}
+{"level":"info","message":"Got a connection from IP address::1 to scrape websites and save them to DB","timestamp":"11:28:55 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"11:28:55 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:29:15 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:29:15 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:29:17 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:29:17 PM"}
+{"level":"info","message":"Got a connection from IP address::1 to scrape websites and save them to DB","timestamp":"11:29:18 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"11:29:18 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:32:49 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:32:49 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:32:51 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:32:52 PM"}
+{"level":"info","message":"Got a connection from IP address::1 to scrape websites and save them to DB","timestamp":"11:32:57 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"11:32:57 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:34:20 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:34:20 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:34:23 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:34:24 PM"}
+{"level":"info","message":"Got a connection from IP address::1 to scrape websites and save them to DB","timestamp":"11:34:31 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"11:34:31 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:34:45 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:34:45 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:34:48 PM"}
+{"level":"info","message":"Got a connection from IP address::1 to scrape websites and save them to DB","timestamp":"11:34:48 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"11:34:48 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:34:49 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:35:41 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:35:41 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:35:43 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:35:43 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:36:32 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:36:32 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:36:34 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:36:34 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:41:52 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:41:52 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:41:55 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:41:56 PM"}
+{"level":"info","message":"Got a connection from IP address::1 to scrape websites and save them to DB","timestamp":"11:42:36 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"11:42:36 PM"}
+{"level":"info","message":"https://www.billboard.com/charts/hot-100 is not responding","timestamp":"11:42:39 PM"}
+{"level":"info","message":"http://www.officialcharts.com/chart-news/the-official-top-40-biggest-songs-of-2017-so-far__18652/ successfuly scraped.","timestamp":"11:42:40 PM"}
+{"level":"info","message":"collection officialcharts deleted","timestamp":"11:42:40 PM"}
+{"level":"info","message":"inserted songs to collection officialcharts","timestamp":"11:42:41 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:44:56 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:44:56 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:44:58 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:44:59 PM"}
+{"level":"info","message":"Got a connection from IP address::1 to scrape websites and save them to DB","timestamp":"11:45:05 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"11:45:05 PM"}
+{"level":"info","message":"Starting application","timestamp":"11:57:15 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"11:57:15 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"11:57:18 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"11:57:18 PM"}
+{"level":"info","message":"Got a connection from IP address::1 to scrape websites and save them to DB","timestamp":"11:57:26 PM"}
+{"level":"info","message":"Web scrapping initialized","timestamp":"11:57:26 PM"}
+{"level":"info","message":"http://www.officialcharts.com/chart-news/the-official-top-40-biggest-songs-of-2017-so-far__18652/ successfuly scraped.","timestamp":"11:57:30 PM"}
+{"level":"info","message":"collection officialcharts deleted","timestamp":"11:57:30 PM"}
+{"level":"info","message":"inserted songs to collection officialcharts","timestamp":"11:57:30 PM"}

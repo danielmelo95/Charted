@@ -57,6 +57,19 @@
     <script src="/app.js"></script>
     <script src="/controllers/billboard.js"></script>
     <script src="/controllers/officialcharts.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=onClientLoad" type="text/javascript"></script>
 </body>
 
 </html>
+
+
+
+<script>
+
+    $(document).ready(function(){
+        setTimeout(function() {
+            $('[data-toggle="tooltip"]').tooltip();   
+        }, 2000);
+    });
+    </script>
+
