@@ -12,12 +12,14 @@
     "bootstrap-year-calendar": "*",
     "cheerio": "*",
     "express": "*",
-    "googleapis": "^23.0.0",
+    "google-auth-library": "^1.0.0",
+    "googleapis": "^23.0.2",
     "mongoose": "*",
     "node-schedule": "*",
     "nodemailer": "*",
     "request": "*",
-    "winston": "*"
+    "winston": "*",
+    "youtube-api": "^2.0.9"
   },
   "author": "Jozef Maloch",
   "license": "ISC"

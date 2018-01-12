@@ -185,3 +185,9 @@ nav[role="sub"] a li.active {
 .iconsDiv {
     margin-left: 30px;
 }
+
+.playlistIcon {
+    max-width: 40px;
+    max-height: 40px;
+    margin-left: 10px;
+}

@@ -7,6 +7,12 @@ myApp.controller('billboardController',
 			$http.get('/api/billboards').then(function(response) {
 				$scope.allSongs = response.data;
 				console.log($scope.allSongs);
+				$scope.playlist = "https://www.youtube.com/watch_videos?video_ids=";
+				
+				for(i = 0; i < $scope.allSongs.length; i++) {
+					$scope.playlist += $scope.allSongs[i].url + ",";
+				}
+				console.log($scope.playlist);
 			});
 		}
 	}]);
