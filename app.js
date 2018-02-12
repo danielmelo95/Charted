@@ -10,24 +10,17 @@ app.use(bodyParser.json());
 app.use(express.static(__dirname + '/client'));
 var async = require('asyncawait/async');
 var await = require('asyncawait/await');
-
-//mongoose.connect('mongodb://localhost/todolist');
-var db = mongoose.connection;
-
-// LOGGER
-// --------------------------------------------------------------------------------------------
-
 const winston = require('winston');
 const fs = require('fs');
 const env = process.env.NODE_ENV || 'development';
 const logDir = 'log';
-// Create the log directory if it does not exist
-if (!fs.existsSync(logDir)) {
-	fs.mkdirSync(logDir);
-}
+//mongoose.connect('mongodb://localhost/todolist');
+var db = mongoose.connection;
+
 const tsFormat = () => (new Date()).toLocaleTimeString();
 date = new Date();
-const logger = new (winston.Logger)({
+
+logger = new (winston.Logger)({
 	transports: [
 		// colorize the output to the console
 		new (winston.transports.Console)({
@@ -43,11 +36,38 @@ const logger = new (winston.Logger)({
 	]
 });
 
-app.get('/logger', function (req, res) {
-	clientIP = getClientIP(req);
-	logger.info('Got a connection from IP address' + clientIP + ' to send logger');
-	res.send("thanks for the ping :)");
+logger.info("Starting application");
+
+// DB SETUP
+MONGOLAB_URI = "mongodb://admin:heslo123ahoj50@ds131137.mlab.com:31137/charted";
+
+logger.info("Initializing connection to MongoDB");
+mongoose.connect(MONGOLAB_URI, { useMongoClient: true }, function (error) {
+	if (error) console.error(error);
+	else logger.info("Successfuly connected to MongoDB");
+});
+
+var test;
+
+app.get('/scrapper', function (req, res) {
+
 	if (clientIP == "63.143.42.250") {
+
+		clientIP = getClientIP(req);
+		logger.info('Got a connection from IP address' + clientIP + ' to send logger');
+		res.send("thanks for the ping :)");
+
+		// LOGGER
+		// --------------------------------------------------------------------------------------------
+
+		// Create the log directory if it does not exist
+		if (!fs.existsSync(logDir)) {
+			fs.mkdirSync(logDir);
+		}
+
+		const tsFormat = () => (new Date()).toLocaleTimeString();
+		date = new Date();
+
 		var nodemailer = require('nodemailer');
 		var transporter = nodemailer.createTransport({
 			service: 'Gmail',
@@ -75,39 +95,38 @@ app.get('/logger', function (req, res) {
 				attachments: [{ 'filename': `${date.toDateString()}.log`, 'content': data }]
 			});
 		});
+		logger.info("Successfuly deleted " + filePath);
 
-		fs.unlink(filePath, function (error) {
-			if (error) {
-				throw error;
-			}
-			logger.info('Successfuly deleted ' + filePath);
-		});
-	}
-});
-// --------------------------------------------------------------------------------------------
+		setTimeout(() => {
+			fs.writeFile(filePath, "");
+		}, 5000);
+		// --------------------------------------------------------------------------------------------
 
-logger.info("Starting application");
+		function getSongs(callback) {
+			Billboard.getAllSongs(function (err, allSongs) {
+				if (err) {
+					throw err;
+				}
+				callback(allSongs);
+			});
+		}
+		function one(result) {
+			test = result;
+			//console.log(test);
+			return test;
+			// Do anything you like
+		}
+		getSongs(function (result) { one(result); });
 
-// DB SETUP
-MONGOLAB_URI = "mongodb://admin:heslo123ahoj50@ds131137.mlab.com:31137/charted";
 
-logger.info("Initializing connection to MongoDB");
-mongoose.connect(MONGOLAB_URI, { useMongoClient: true }, function (error) {
-	if (error) console.error(error);
-	else logger.info("Successfuly connected to MongoDB");
-});
+		// SCHEDULER
+		// --------------------------------------------------------------------------------------------
+		var rule = new schedule.RecurrenceRule();
+		rule.minute = 1;
 
-// SCHEDULER
-// --------------------------------------------------------------------------------------------
-var rule = new schedule.RecurrenceRule();
-rule.minute = 1;
-
-app.get('/scrapper', function (req, res) {
-
-	clientIP = getClientIP(req);
-	logger.info('Got a connection from IP address' + clientIP + ' to scrape websites and save them to DB');
-	res.send("thanks for the ping :)");
-	if (clientIP == "63.143.42.250") {
+		clientIP = getClientIP(req);
+		logger.info('Got a connection from IP address' + clientIP + ' to scrape websites and save them to DB');
+		//res.send("thanks for the ping :)");
 		//var j = schedule.scheduleJob(rule, function () {
 
 		// WEB PAGES SCRAPING
@@ -221,7 +240,7 @@ function searchYoutube(title, author, fn) {
 	return new Promise(resolve => {
 		setTimeout(() => {
 			resolve('resolved');
-		}, 1000);
+		}, 3000);
 	});
 }
 
@@ -236,11 +255,19 @@ Billboard = require('./models/billboard.js');
 
 // display all songs of billboard
 app.get('/api/billboards', function (req, res) {
+
 	Billboard.getAllSongs(function (err, allSongs) {
 		if (err) {
 			throw err;
 		}
-		res.json(allSongs);
+		console.log(allSongs[0].id);
+		if (allSongs[0].id != 100) {
+			logger.info("Had to load the old version of scrapped billboard website, because scrapping is now in progress");
+			res.json(test);
+		}
+		else {
+			res.json(allSongs);
+		}
 	});
 })
 

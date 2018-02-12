@@ -5,7 +5,7 @@ myApp.controller('billboardController',
 	function($scope, $http, $location, $routeParams){
 		$scope.getAllSongs = function() {
 			$http.get('/api/billboards').then(function(response) {
-				$scope.allSongs = response.data;
+				$scope.allSongs = response.data.slice().reverse();
 				console.log($scope.allSongs);
 				$scope.playlist = "https://www.youtube.com/watch_videos?video_ids=";
 				

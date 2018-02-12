@@ -13,3 +13,7 @@
 {"level":"info","message":"Starting application","timestamp":"2:37:12 AM"}
 {"level":"info","message":"Initializing connection to MongoDB","timestamp":"2:37:12 AM"}
 {"level":"info","message":"App listening at http://:::98","timestamp":"2:37:13 AM"}
+{"level":"info","message":"Starting application","timestamp":"3:17:03 PM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"3:17:03 PM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"3:17:05 PM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"3:17:07 PM"}
