@@ -51,9 +51,8 @@ var test;
 
 app.get('/scrapper', function (req, res) {
 
+	clientIP = getClientIP(req);
 	if (clientIP == "63.143.42.250") {
-
-		clientIP = getClientIP(req);
 		logger.info('Got a connection from IP address' + clientIP + ' to send logger');
 		res.send("thanks for the ping :)");
 
