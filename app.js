@@ -39,7 +39,7 @@ logger = new (winston.Logger)({
 logger.info("Starting application");
 
 // DB SETUP
-MONGOLAB_URI = "mongodb://admin:heslo123ahoj50@ds131137.mlab.com:31137/charted";
+MONGOLAB_URI = process.env.MONGOLAB_URI;
 
 logger.info("Initializing connection to MongoDB");
 mongoose.connect(MONGOLAB_URI, { useMongoClient: true }, function (error) {
@@ -71,8 +71,8 @@ app.get('/scrapper', function (req, res) {
 		var transporter = nodemailer.createTransport({
 			service: 'Gmail',
 			auth: {
-				user: 'charted.logger@gmail.com',
-				pass: 'heslo123ahoj50'
+				user: process.env.GMAIL_USERNAME,
+				pass: process.env.GMAIL_PASSWORD
 			}
 		});
 
@@ -82,15 +82,15 @@ app.get('/scrapper', function (req, res) {
 			host: 'host.com',
 			port: 587,
 			use_authentication: true,
-			user: 'charted.logger@gmail.com',
-			pass: 'heslo123ahoj50'
+			user: process.env.GMAIL_USERNAME,
+			pass: process.env.GMAIL_PASSWORD
 		};
 		fs.readFile(filePath, function (err, data) {
 			transporter.sendMail({
-				from: 'charted.logger@gmail.com',
-				to: 'charted.logger@gmail.com',
-				subject: 'hello world!',
-				text: 'hello world!',
+				from: process.env.GMAIL_USERNAME,
+				to: process.env.GMAIL_USERNAME,
+				subject: 'logs',
+				text: 'logs',
 				attachments: [{ 'filename': `${date.toDateString()}.log`, 'content': data }]
 			});
 		});
