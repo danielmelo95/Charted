@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="sk" ng-app="myApp">
+
 <head>
     <meta charset="utf-8">
     <title>Charted | Home</title>
@@ -16,25 +17,25 @@
 <body>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
-            <ul id="menu">
-                <li id="menu_img_li">
-                    <a data-toggle="tab" href="#!/intro">
-                        <img id="menu_img" src="css/imgs/logo_and_text2.png">
-                    </a>
-                </li>
-                <li>
+            <div class="navbar-header">
+                <a data-toggle="tab" href="#!/intro">
+                    <img id="menu_img" src="css/imgs/logo_and_text2.png">
+                </a>
+            </div>
+            <ul class="nav navbar-nav" id="menu">
+                <li class="menuItem">
                     <a data-toggle="tab" href="#!/intro">SOMETHING</a>
                 </li>
-                <li>
+                <li class="menuItem">
                     <a data-toggle="tab" href="#!/intro">SOMETHING</a>
                 </li>
-                <li>
+                <li class="menuItem">
                     <a data-toggle="tab" href="#!/intro">SOMETHING</a>
                 </li>
-                <li>
+                <li class="menuItem">
                     <a data-toggle="tab" href="#!/billboard">OVERVIEW</a>
                 </li>
-                <li>
+                <li class="menuItem">
                     <a data-toggle="tab" class="active" href="#!/intro">HOME</a>
                 </li>
             </ul>
@@ -66,10 +67,9 @@
 
 <script>
 
-    $(document).ready(function(){
-        setTimeout(function() {
-            $('[data-toggle="tooltip"]').tooltip();   
+    $(document).ready(function () {
+        setTimeout(function () {
+            $('[data-toggle="tooltip"]').tooltip();
         }, 2000);
     });
-    </script>
-
+</script>
