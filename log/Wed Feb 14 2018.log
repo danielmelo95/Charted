@@ -1,0 +1,10 @@
+{"level":"info","message":"Starting application","timestamp":"12:48:29 AM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"12:48:29 AM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"12:48:41 AM"}
+{"level":"info","message":"Starting application","timestamp":"12:59:28 AM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"12:59:28 AM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"12:59:33 AM"}
+{"level":"info","message":"Starting application","timestamp":"1:04:47 AM"}
+{"level":"info","message":"Initializing connection to MongoDB","timestamp":"1:04:47 AM"}
+{"level":"info","message":"App listening at http://:::98","timestamp":"1:04:50 AM"}
+{"level":"info","message":"Successfuly connected to MongoDB","timestamp":"1:04:51 AM"}
