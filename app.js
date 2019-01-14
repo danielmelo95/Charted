@@ -261,7 +261,7 @@ app.get('/scrapper', function (req, res) {
 var google = require('googleapis');
 var youtube = google.youtube({
   version: 'v3',
-  auth: "AIzaSyCqn2Yz6tzdQ8gkduRq31JyWtRpS8FN_hw"
+  auth: process.env.YOUTUBE_API
 });
 
 function searchYoutube(title, author, fn) {
