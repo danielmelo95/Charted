@@ -12,11 +12,14 @@ var schema = mongoose.Schema({
 	author: {
 		type: String,
 		required: true
-	}
+	},
 }, { _id: false });
 
-var Billboard = module.exports = mongoose.model('billboard', schema);
+
+var Billboard = module.exports = mongoose.model('billboards', schema);
 
 module.exports.getAllSongs = function (callback, limit) {
-	Billboard.find(callback).sort({$natural:-1}).limit(100);
+	// Billboard.find(callback).limit(limit);
+
+	Billboard.find(callback).sort({ $natural: -1 }).limit(100);
 }
