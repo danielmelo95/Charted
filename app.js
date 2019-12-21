@@ -1,3 +1,4 @@
+require('dotenv').config()
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
@@ -14,6 +15,7 @@ const winston = require('winston');
 const fs = require('fs');
 const env = process.env.NODE_ENV || 'development';
 const logDir = 'log';
+
 //mongoose.connect('mongodb://localhost/todolist');
 var db = mongoose.connection;
 
@@ -149,7 +151,11 @@ app.get('/scrapper', function (req, res) {
         var $ = cheerio.load(html);
         var counter = 1;
         var title, release, rating;
-        db.collection("billboards").drop();
+        try {
+          db.collection("billboards").drop();
+        } catch (error) {
+          console.log('Error while deleting collection billboards: ', error)
+        }
       }
 
       (async(function asyncCall() {
@@ -238,7 +244,12 @@ app.get('/scrapper', function (req, res) {
       if (obj.table.length > 0) {
         logger.info(url + " successfuly scraped.")
         // delete collection 
-        db.collection("officialcharts").drop();
+        try {
+          db.collection("officialcharts").drop();
+        }
+        catch(error) {
+          console.log("Error while deleting collection officialcharts: ", error);
+        }
         logger.info("collection officialcharts deleted");
 
         // add new songs to the collection
