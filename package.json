@@ -17,7 +17,7 @@
     "dotenv": "^8.2.0",
     "express": "*",
     "google-auth-library": "^1.0.0",
-    "googleapis": "^23.0.2",
+    "googleapis": "^39.1.0",
     "mongoose": "*",
     "node-schedule": "*",
     "nodemailer": "*",
